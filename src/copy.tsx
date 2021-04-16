@@ -143,7 +143,7 @@ const sponsors: Sponsor[] = [
     link: "https://hackthenorth.com",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
+        "JIT Hackathon is a global event taking place this fall. Participants all around the globe can attend to compete and win exciting prizes. ",
       link: "https://hackthenorth.com",
       linkLabel: "Hack the North"
     }
@@ -161,7 +161,7 @@ const sponsors: Sponsor[] = [
     link: "https://hackthenorth.com",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
+        "JIT Hackathon is a global event taking place this fall. Participants all around the globe can attend to compete and win exciting prizes.",
       link: "https://hackthenorth.com",
       linkLabel: "Hack the North"
     }
@@ -173,7 +173,7 @@ const sponsors: Sponsor[] = [
     link: "https://hackthenorth.com",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
+      "JIT Hackathon is a global event taking place this fall. Participants all around the globe can attend to compete and win exciting prizes.",
       link: "https://hackthenorth.com",
       linkLabel: "Hack the North"
     }
@@ -191,7 +191,7 @@ const sponsors: Sponsor[] = [
     link: "https://hackthenorth.com",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
+        "JIT Hackathon is a global event taking place this fall. Participants all around the globe can attend to compete and win exciting prizes.",
       link: "https://hackthenorth.com",
       linkLabel: "Hack the North"
     }
@@ -489,11 +489,11 @@ export default {
     sponsors
   },
   about: {
-    title: "Canada's biggest hackathon",
+    title: "JIT's own global hackathon.",
     sentence1:
-      "Join 1,000+ students from all around the globe at the University of Waterloo to build something incredible in just 36 hours.",
+      "Join students from all around the globe at the JIT to build something incredible in just 24 hours.",
     sentence2:
-      "At Hack the North, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality. Let us handle food, travel, and all the details so you can create #YourHackTheNorth.",
+      "At JIT hack, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality.",
     gears: [
       {
         name: "speakers",

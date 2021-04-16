@@ -177,7 +177,7 @@ const Hero = () => {
     <HeroWrapper id="home">
       <Content>
         <Text variant="header" as="h1">
-         Something great coming soon!
+         Presenting JIT-Hack 2021
          </Text>
         <Text variant="subheader" as="h1">
          Tech Club -JyothyIT | Dept of CSE | JIT

@@ -186,7 +186,7 @@ const About: React.FC = () => {
   return (
     <AboutWrapper id="about">
       {AboutTextBlock}
-      <RecapVideoButton
+      {/* <RecapVideoButton
         icon={aboutCopy.videoButton.icon}
         text={aboutCopy.videoButton.text}
         background={aboutCopy.videoButton.background}
@@ -199,8 +199,8 @@ const About: React.FC = () => {
           closeIcon={aboutCopy.video.closeIcon}
           videoOptions={videoOptions}
         />
-      )}
-      {Engineering()}
+      )} */}
+      {/* {Engineering()} */}
       <GearsWrapper>
         {aboutCopy.gears.map(({ name, body, images, delay, gradient }, i) => (
           <Gear
