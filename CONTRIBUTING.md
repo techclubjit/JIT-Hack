@@ -12,7 +12,7 @@ While this isn't a necessary step, if you plan on doing anything more than a tin
 ```
 git remote add upstream https://github.com/techclubjit/JIT-Hack.git
 ``` 
-("JIT-Hack" is used as the example repo. Be sure to reference the _actual_ repo you're contributing to e.g. "JIT-Hack-linkerd").
+("JIT-Hack" is used as the example repo. Be sure to reference the _actual_ repo you're contributing to e.g. "JIT-Hack").
 
 ## Verify the new remote named 'upstream'
 ```
