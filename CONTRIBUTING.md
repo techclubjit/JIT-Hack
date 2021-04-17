@@ -3,7 +3,7 @@ Just head over to the GitHub page and click the "Fork" button. It's just that si
 
 ## Clone your fork to your local machine
 ```
-git clone https://github.com/adithyaakrishna/JIT-Hack.git
+git clone https://github.com/USER_NAME/JIT-Hack.git
 ```
 Keeping Your Fork Up to Date
 While this isn't a necessary step, if you plan on doing anything more than a tiny quick fix, you'll want to make sure you keep your fork up to date by tracking the original "upstream" repo that you forked earlier. To do this, you'll need to add a remote:
