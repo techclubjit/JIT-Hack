@@ -11,12 +11,13 @@ export { default as SponsorLogoImg } from "./sponsors/sponsor.png";
 export { default as TechyonLogoImg } from "./sponsors/techyon.png";
 
 /* Logos */
-export { default as LogoDarkImg } from "./logos/primary-dark.svg";
+export { default as LogoDarkImg } from "./logos/primary-dark.png";
 export { default as LogoLightImg } from "./logos/primary-light.svg";
 export { default as LogoAltDarkImg } from "./logos/alternative-dark.svg";
 export { default as LogoAltLightImg } from "./logos/alternative-light.svg";
 export { default as LogoIconDarkImg } from "./logos/icon-dark.svg"; // just the gear
-export { default as LogoIconLightImg } from "./logos/icon-light.svg"; // just the gear
+export { default as LogoIconLightImg } from "./logos/icon-light.svg";
+ // just the gear
 
 /* Social icons */
 export { default as SocialFacebookImg } from "./icons/book.svg";
@@ -94,7 +95,7 @@ export {
   default as KimberHeadshotImg
 } from "./headshots/kimber_schlegelmilch.jpg";
 export { default as MichalHeadshotImg } from "./headshots/michal.jpg";
-export { default as OrganizerHeadshotImg } from "./headshots/organizer.png";
+export { default as OrganizerHeadshotImg } from "./headshots/organizer1.png";
 
 /* Photos */
 export {
@@ -146,3 +147,8 @@ export { default as JenniferHeadshotImg } from "./leaders/jennifer-dewalt.jpg";
 export { default as TiffaniHeadshotImg } from "./leaders/tiffani-bell.jpg";
 export { default as TracyHeadshotImg } from "./leaders/tracy-chou.jpg";
 export { default as VinodHeadshotImg } from "./leaders/vinod-khosla.jpg";
+
+
+export { default as MainLogo } from "./logos/TC-Logo-C.svg"
+export { default as MainLogoWhite } from "./logos/TC-Logo-Final-W.svg"
+
