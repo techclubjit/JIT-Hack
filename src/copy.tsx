@@ -82,130 +82,130 @@ interface Sponsor {
 
 const sponsors: Sponsor[] = [
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
 
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app",
     feature: {
       text:
-        "JIT Hacks is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
       link: "https://jithack.netlify.app",
-      linkLabel: "JIT Hacks"
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app",
     feature: {
       text:
-        "JIT Hacks is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
       link: "https://jithack.netlify.app",
-      linkLabel: "JIT Hacks"
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app",
     feature: {
       text:
-        "JIT Hacks is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
       link: "https://jithack.netlify.app",
-      linkLabel: "JIT Hacks"
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app"
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "gold",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app",
     feature: {
       text:
-        "JIT Hacks is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
       link: "https://jithack.netlify.app",
-      linkLabel: "JIT Hacks"
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "JIT Hacks",
+    name: "JITHack",
     tier: "gold",
     imgSrc: SponsorLogoImg,
     link: "https://jithack.netlify.app",
     feature: {
       text:
-        "JIT Hacks is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
       link: "https://jithack.netlify.app",
-      linkLabel: "JIT Hacks"
+      linkLabel: "JITHack"
     }
   },
   {
@@ -237,82 +237,82 @@ const team = [
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Open-sourced with 💕 by TechClub , JIT",
@@ -322,97 +322,97 @@ const team = [
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   },
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "JIT HACK LOGO"
+    alt: "JITHack LOGO"
   }
 ];
 
@@ -455,7 +455,7 @@ export default {
   },
   hero: {
     firstLine: "Your",
-    secondLine: "Your JIT Hacks.",
+    secondLine: "Your JITHack.",
     keyWords: ["idea,", "design,", "story,", "challenge,", "learning,"],
     subtitle: "June 26, 2021  ·  Jyothy Institute of Techonology.",
     emailNotif: " has been added to our mailing list.",
@@ -493,7 +493,7 @@ export default {
     sentence1:
       "Join 1,000+ students from all around the globe at the University of Waterloo to build something incredible in just 36 hours.",
     sentence2:
-      "At JIT Hacks, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality. Let us handle food, travel, and all the details so you can create #YourHackTheNorth.",
+      "At JITHack, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality. Let us handle food, travel, and all the details so you can create #YourHackTheNorth.",
     gears: [
       {
         name: "speakers",
@@ -553,7 +553,7 @@ export default {
       logo: WaterlooEngLogoImg,
       illustration: EngineeringIllustrationImg,
       text:
-        "Our partner of over 5 years, Waterloo Engineering continues to support JIT Hacks to build a creative, diverse, and unique experience for hackers. The University of Waterloo is home to Canada’s largest engineering school — a pipeline for engineering talent for the world’s leading companies. Ranked among the top 50 engineering schools in the world, the school’s reputation for excellence is built on the foundation of co-op education and a bold history of innovation."
+        "Our partner of over 5 years, Waterloo Engineering continues to support JITHack to build a creative, diverse, and unique experience for hackers. The University of Waterloo is home to Canada’s largest engineering school — a pipeline for engineering talent for the world’s leading companies. Ranked among the top 50 engineering schools in the world, the school’s reputation for excellence is built on the foundation of co-op education and a bold history of innovation."
     },
     video: {
       url:
@@ -578,14 +578,14 @@ export default {
         desc: "Google",
         img: KoryHeadshotImg,
         quote:
-          "JIT Hacks is North America’s premier hackathon. It brings together the best minds from around the world and takes care of all the logistics so that they can focus on learning and creating. Can’t wait to see what they do next year."
+          "JITHack is North America’s premier hackathon. It brings together the best minds from around the world and takes care of all the logistics so that they can focus on learning and creating. Can’t wait to see what they do next year."
       },
       {
         person: "Kimber Schlegelmilch",
         desc: "Lyft",
         img: KimberHeadshotImg,
         quote:
-          "JIT Hacks is one of the best hackathons I've experienced — the organizers are incredible, the projects produced at the end of the weekend are really impressive, and the energy of students and mentors remains insanely high throughout the event."
+          "JITHack is one of the best hackathons I've experienced — the organizers are incredible, the projects produced at the end of the weekend are really impressive, and the energy of students and mentors remains insanely high throughout the event."
       },
       {
         person: "Alexis Ohanian",
@@ -596,7 +596,7 @@ export default {
       },
       {
         person: "Alex",
-        desc: "JIT Hacks 2017 Finalist",
+        desc: "JITHack 2017 Finalist",
         img: AlexHackerHeadshotImg,
         link: "https://devpost.com/software/doppel-gallery",
         quote:
@@ -604,35 +604,35 @@ export default {
       },
       {
         person: "Bruno",
-        desc: "JIT Hacks 2018 First-time Hacker",
+        desc: "JITHack 2018 First-time Hacker",
         img: BrunoHackerHeadshotImg,
         link: "https://devpost.com/software/instaface",
         quote:
-          "JIT Hacks was both my first international event and hackathon. I was quite nervous about leaving Brazil and going to the event but once there, everything was better than I could have ever imagined. I met so many cool and interesting people from all over the globe, made a lot of new friends and built something very cool on very little sleep with my team, overall an amazing experience!"
+          "JITHack was both my first international event and hackathon. I was quite nervous about leaving Brazil and going to the event but once there, everything was better than I could have ever imagined. I met so many cool and interesting people from all over the globe, made a lot of new friends and built something very cool on very little sleep with my team, overall an amazing experience!"
       },
       {
         person: "Jacky",
-        desc: "JIT Hacks 2018 Experienced Hacker",
+        desc: "JITHack 2018 Experienced Hacker",
         img: JackyHackerHeadshotImg,
         link: "https://devpost.com/software/tappit-crypto-payments-over-nfc",
         quote:
-          "JIT Hacks was – and still is – one of the best 36 hours I’ve ever had. Everything from the caffeine and stress-relief dogs to the amazing speakers, mentors, and organizers. It was amazing when you really needed to get a bite or take a break to walk around and see everyone’s amazing projects. JIT Hacks was a lot of ‘firsts’ and I hope it will be the same for many more in the future."
+          "JITHack was – and still is – one of the best 36 hours I’ve ever had. Everything from the caffeine and stress-relief dogs to the amazing speakers, mentors, and organizers. It was amazing when you really needed to get a bite or take a break to walk around and see everyone’s amazing projects. JITHack was a lot of ‘firsts’ and I hope it will be the same for many more in the future."
       },
       {
         person: "Kevin",
-        desc: "JIT Hacks 2014 Finalist",
+        desc: "JITHack 2014 Finalist",
         img: KevinHackerHeadshotImg,
         link: "https://hackthenorth.devpost.com/submissions/27029-open-pokemon",
         quote:
-          "JIT Hacks was a weekend where I could learn and start a passion for building great products. The experience was transformative and led me to where I am today. What really stood out to me was this sense of camaraderie between different hackers. I walked away from that weekend with so much more knowledge, and I made a lot of close, new friends."
+          "JITHack was a weekend where I could learn and start a passion for building great products. The experience was transformative and led me to where I am today. What really stood out to me was this sense of camaraderie between different hackers. I walked away from that weekend with so much more knowledge, and I made a lot of close, new friends."
       },
       {
         person: "Michelle",
-        desc: "JIT Hacks 2015/2016 Finalist",
+        desc: "JITHack 2015/2016 Finalist",
         img: MichelleHackerHeadshotImg,
         link: "https://devpost.com/software/modernized-weasley-clock-yotu43",
         quote:
-          "JIT Hacks was my first (and second) hackathon, and the experience is still unforgettable! Everything JIT Hacks provided – inspiring speakers, mentors, workshops, food, coffee and free swag – contributed to an awesome supportive environment that made it really fun to hack away for those 36 hours."
+          "JITHack was my first (and second) hackathon, and the experience is still unforgettable! Everything JITHack provided – inspiring speakers, mentors, workshops, food, coffee and free swag – contributed to an awesome supportive environment that made it really fun to hack away for those 36 hours."
       }
     ]
   },
@@ -640,24 +640,24 @@ export default {
     title: "Frequently asked questions",
     body: [
       {
-        question: "What is JIT Hacks?",
+        question: "What is JITHack?",
         answer:
-          "JIT Hacks is Canada’s biggest hackathon, where 1,000 students of different skill levels come together from around the world to experiment and create unique software or hardware projects from scratch. We empower and enable teams to make something great in only 36 hours by providing an abundance of resources like workshops, mentors, sponsors, and hardware components."
+          "JITHack is Canada’s biggest hackathon, where 1,000 students of different skill levels come together from around the world to experiment and create unique software or hardware projects from scratch. We empower and enable teams to make something great in only 36 hours by providing an abundance of resources like workshops, mentors, sponsors, and hardware components."
       },
       {
         question: "Who can participate?",
         answer:
-          "Students of any education level from anywhere in the world are eligible to apply for JIT Hacks!"
+          "Students of any education level from anywhere in the world are eligible to apply for JITHack!"
       },
       {
-        question: "How much does it cost to attend JIT Hacks?",
+        question: "How much does it cost to attend JITHack?",
         answer:
-          "Admission to JIT Hacks is completely free. We also provide food and accommodation for the entire event and help out as much as we can with your transportation to and from the University of Waterloo!"
+          "Admission to JITHack is completely free. We also provide food and accommodation for the entire event and help out as much as we can with your transportation to and from the University of Waterloo!"
       },
       {
-        question: "How do I get to JIT Hacks?",
+        question: "How do I get to JITHack?",
         answer:
-          "We will be providing several buses from schools within driving distance of the University of Waterloo, as well as from nearby airports. For students who need to fly to JIT Hacks, we subsidize as much of your plane ticket as possible."
+          "We will be providing several buses from schools within driving distance of the University of Waterloo, as well as from nearby airports. For students who need to fly to JITHack, we subsidize as much of your plane ticket as possible."
       },
       {
         question: "How many people can be on a team?",
@@ -667,12 +667,12 @@ export default {
       {
         question: "What if I've never been to a hackathon before?",
         answer:
-          "JIT Hacks welcomes students of all skill levels. In previous years, 30% of students have attended JIT Hacks as their first hackathon. We’ll have talks, mentors and workshops to help you with your project; hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
+          "JITHack welcomes students of all skill levels. In previous years, 30% of students have attended JITHack as their first hackathon. We’ll have talks, mentors and workshops to help you with your project; hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
       },
       {
         question: "Can I start working on my hack before the event?",
         answer:
-          "No. In the interest of fairness, students should not be working on their projects before JIT Hacks begins and we do not allow participants to work on pre-existing projects. However, you can familiarize yourself with all the tools and technologies you intend to use beforehand! Hardware will also be provided to hackers who fill out hardware request forms made available after they have been accepted to the event."
+          "No. In the interest of fairness, students should not be working on their projects before JITHack begins and we do not allow participants to work on pre-existing projects. However, you can familiarize yourself with all the tools and technologies you intend to use beforehand! Hardware will also be provided to hackers who fill out hardware request forms made available after they have been accepted to the event."
       },
       {
         question:
@@ -681,7 +681,7 @@ export default {
           "Previously, we’ve held workshops and talks for a range of skill levels from beginner to advanced like Intro to Web Development and Team Building. We’ve also had introductory workshops to various programming tools such as APIs, databases and platforms. Activities like VR demos, meetups, and even karaoke happen throughout the weekend. Whether it’s for relaxation or health, novelty or competition, our team has something exciting prepared for you!"
       },
       {
-        question: "When will applications for JIT Hacks 2019 open?",
+        question: "When will applications for JITHack 2019 open?",
         answer:
           "They'll be opening in early June - follow us on social media to find out exactly when!"
       },
@@ -691,11 +691,11 @@ export default {
           <>
             If your question is not listed here, please feel free to reach out
             to us at{" "}
-            <Link href="mailto:hello@hackthenorth.com">
+            <Link href="mailto:jithack@jyothyit.ac.in">
               hello@hackthenorth.com
             </Link>{" "}
             or on{" "}
-            <Link href="https://www.facebook.com/hackthenorth" newTab>
+            <Link href="https://www.facebook.com/jyothyitofficial" newTab>
               Facebook
             </Link>
             .
@@ -706,10 +706,10 @@ export default {
   },
   footer: {
     img: Robogoose4IllustrationImg,
-    cta: "#YourJITHacks • What will you create?",
+    cta: "#YourJITHack • What will you create?",
     links: [
       {
-        text: "About JIT Hacks",
+        text: "About JITHack",
         hyperlink: "#about",
         newTab: false
       },
@@ -733,7 +733,7 @@ export default {
       {
         name: "Email",
         img: SocialEmailImg,
-        link: "mailto:hello@hackthenorth.com"
+        link: "mailto:jithack@jyothyit.ac.in"
       },
       {
         name: "Facebook",
@@ -758,7 +758,7 @@ export default {
     title: "Be inspired by industry leaders",
     desc: (
       <Text className="desc" variant="sectionText">
-        Tech leaders come to JIT Hacks to be judges, to speak, and to be on
+        Tech leaders come to JITHack to be judges, to speak, and to be on
         the ground innovating with hackers. Stay tuned for updates on this
         year's speakers and judges.
       </Text>
