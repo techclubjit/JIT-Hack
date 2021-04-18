@@ -65,7 +65,9 @@ import {
   SocialEmailImg,
   Robogoose4IllustrationImg,
   MichalHeadshotImg,
-  OrganizerHeadshotImg
+  OrganizerHeadshotImg,
+  MainLogo,
+  MainLogoWhite
 } from "static/img";
 
 interface Sponsor {
@@ -82,130 +84,130 @@ interface Sponsor {
 
 const sponsors: Sponsor[] = [
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
 
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
+    link: "https://jithack.netlify.app",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
+    link: "https://jithack.netlify.app",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
+    link: "https://jithack.netlify.app",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "silver",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    link: "https://jithack.netlify.app"
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "gold",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
+    link: "https://jithack.netlify.app",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
     }
   },
   {
-    name: "Hack the North",
+    name: "JITHack",
     tier: "gold",
     imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
+    link: "https://jithack.netlify.app",
     feature: {
       text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
     }
   },
   {
@@ -235,194 +237,230 @@ const shuffle = <T extends {}>(array: T[]) => {
 
 const team = [
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "Made with 💕 by students from Jyothy Institute of Techonology",
+    img: MainLogo,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "VINAY M",
+    img: CatHeadshotImg,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "Aditya Krishna",
+    img: ChamathHeadshotImg,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "Shishira Nataraj",
+    img: ConnieHeadshotImg,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "Karthik",
+    img: DylanHeadshotImg,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "Suhas Hanjar",
+    img: EthanWildingHeadshotImg,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "Shravan",
+    img: JeffHeadshotImg,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    text: "Tushar",
+    img: JenniferHeadshotImg,
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "JITHack LOGO"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "JITHack LOGO"
   },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Open-sourced with 💛 by Michal Jez, Frontend",
-    img: MichalHeadshotImg,
-    alt: "A headshot of Michal Jez"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  }
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Open-sourced with 💕 by TechClub , JIT",
+  //   img: MichalHeadshotImg,
+  //   alt: "A headshot of TechClub"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+  // {
+  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
+  //   img: OrganizerHeadshotImg,
+  //   alt: "JITHack LOGO"
+  // },
+
 ];
 
 export default {
   nav: {
     logo: {
-      light: LogoIconLightImg,
-      dark: LogoIconDarkImg
+      light: MainLogoWhite,
+      dark: MainLogo
     },
-    sections: ["About", "Leaders", "Sponsors", "FAQ", "2018"],
+    sections: ["About", "Leaders", "Sponsors", "FAQ"],
     socialLinks: [
       {
         name: "facebook",
@@ -430,7 +468,7 @@ export default {
           light: SocialFacebookImg,
           dark: SocialFacebookImgDark
         },
-        link: "https://www.facebook.com/hackthenorth"
+        link: "https://www.facebook.com/jyothyitofficial/"
       },
       {
         name: "twitter",
@@ -438,7 +476,7 @@ export default {
           light: SocialTwitterImg,
           dark: SocialTwitterImgDark
         },
-        link: "https://twitter.com/hackthenorth"
+        link: "https://twitter.com/jyothyit/"
       },
       {
         name: "instagram",
@@ -446,7 +484,7 @@ export default {
           light: SocialInstaImg,
           dark: SocialInstaImgDark
         },
-        link: "https://www.instagram.com/hackthenorth"
+        link: "https://www.instagram.com/jyothyitofficial/"
       }
     ],
     sponsorButton: {
@@ -455,9 +493,9 @@ export default {
   },
   hero: {
     firstLine: "Your",
-    secondLine: "Your Hack the North.",
+    secondLine: "Presenting JITHack 2021.",
     keyWords: ["idea,", "design,", "story,", "challenge,", "learning,"],
-    subtitle: "September 13 - 15, 2019  ·  University of Waterloo",
+    subtitle: "June 26, 2021  ·  Jyothy Institute of Techonology.",
     emailNotif: " has been added to our mailing list.",
     emailPlaceholder: "Enter your email address for updates",
     emailDupe: "This email is already on the mailing list!",
@@ -475,14 +513,14 @@ export default {
         </Text>
         <Text variant="sectionText" as="p">
           Interested in sponsoring? Email us at{" "}
-          <Link href="mailto:sponsor@hackthenorth.com">
-            sponsor@hackthenorth.com
+          <Link href="mailto:sponsor@jithack.tech">
+            sponsor@jithack.tech
           </Link>
         </Text>
       </>
     ),
     cta: {
-      link: "mailto:sponsor@hackthenorth.com",
+      link: "mailto:sponsor@jithack.tech",
       label: "Become a sponsor"
     },
     illustration: SponsorIllustrationImg,
@@ -493,7 +531,7 @@ export default {
     sentence1:
       "Join 1,000+ students from all around the globe at the University of Waterloo to build something incredible in just 36 hours.",
     sentence2:
-      "At Hack the North, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality. Let us handle food, travel, and all the details so you can create #YourHackTheNorth.",
+      "At JITHack, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality. Let us handle food, travel, and all the details so you can create #YourHackTheNorth.",
     gears: [
       {
         name: "speakers",
@@ -553,7 +591,7 @@ export default {
       logo: WaterlooEngLogoImg,
       illustration: EngineeringIllustrationImg,
       text:
-        "Our partner of over 5 years, Waterloo Engineering continues to support Hack the North to build a creative, diverse, and unique experience for hackers. The University of Waterloo is home to Canada’s largest engineering school — a pipeline for engineering talent for the world’s leading companies. Ranked among the top 50 engineering schools in the world, the school’s reputation for excellence is built on the foundation of co-op education and a bold history of innovation."
+        "Our partner of over 5 years, Waterloo Engineering continues to support JITHack to build a creative, diverse, and unique experience for hackers. The University of Waterloo is home to Canada’s largest engineering school — a pipeline for engineering talent for the world’s leading companies. Ranked among the top 50 engineering schools in the world, the school’s reputation for excellence is built on the foundation of co-op education and a bold history of innovation."
     },
     video: {
       url:
@@ -578,14 +616,14 @@ export default {
         desc: "Google",
         img: KoryHeadshotImg,
         quote:
-          "Hack the North is North America’s premier hackathon. It brings together the best minds from around the world and takes care of all the logistics so that they can focus on learning and creating. Can’t wait to see what they do next year."
+          "JITHack is North America’s premier hackathon. It brings together the best minds from around the world and takes care of all the logistics so that they can focus on learning and creating. Can’t wait to see what they do next year."
       },
       {
         person: "Kimber Schlegelmilch",
         desc: "Lyft",
         img: KimberHeadshotImg,
         quote:
-          "Hack the North is one of the best hackathons I've experienced — the organizers are incredible, the projects produced at the end of the weekend are really impressive, and the energy of students and mentors remains insanely high throughout the event."
+          "JITHack is one of the best hackathons I've experienced — the organizers are incredible, the projects produced at the end of the weekend are really impressive, and the energy of students and mentors remains insanely high throughout the event."
       },
       {
         person: "Alexis Ohanian",
@@ -596,7 +634,7 @@ export default {
       },
       {
         person: "Alex",
-        desc: "Hack the North 2017 Finalist",
+        desc: "JITHack 2017 Finalist",
         img: AlexHackerHeadshotImg,
         link: "https://devpost.com/software/doppel-gallery",
         quote:
@@ -604,35 +642,35 @@ export default {
       },
       {
         person: "Bruno",
-        desc: "Hack the North 2018 First-time Hacker",
+        desc: "JITHack 2018 First-time Hacker",
         img: BrunoHackerHeadshotImg,
         link: "https://devpost.com/software/instaface",
         quote:
-          "Hack the North was both my first international event and hackathon. I was quite nervous about leaving Brazil and going to the event but once there, everything was better than I could have ever imagined. I met so many cool and interesting people from all over the globe, made a lot of new friends and built something very cool on very little sleep with my team, overall an amazing experience!"
+          "JITHack was both my first international event and hackathon. I was quite nervous about leaving Brazil and going to the event but once there, everything was better than I could have ever imagined. I met so many cool and interesting people from all over the globe, made a lot of new friends and built something very cool on very little sleep with my team, overall an amazing experience!"
       },
       {
         person: "Jacky",
-        desc: "Hack the North 2018 Experienced Hacker",
+        desc: "JITHack 2018 Experienced Hacker",
         img: JackyHackerHeadshotImg,
         link: "https://devpost.com/software/tappit-crypto-payments-over-nfc",
         quote:
-          "Hack the North was – and still is – one of the best 36 hours I’ve ever had. Everything from the caffeine and stress-relief dogs to the amazing speakers, mentors, and organizers. It was amazing when you really needed to get a bite or take a break to walk around and see everyone’s amazing projects. Hack the North was a lot of ‘firsts’ and I hope it will be the same for many more in the future."
+          "JITHack was – and still is – one of the best 36 hours I’ve ever had. Everything from the caffeine and stress-relief dogs to the amazing speakers, mentors, and organizers. It was amazing when you really needed to get a bite or take a break to walk around and see everyone’s amazing projects. JITHack was a lot of ‘firsts’ and I hope it will be the same for many more in the future."
       },
       {
         person: "Kevin",
-        desc: "Hack the North 2014 Finalist",
+        desc: "JITHack 2014 Finalist",
         img: KevinHackerHeadshotImg,
         link: "https://hackthenorth.devpost.com/submissions/27029-open-pokemon",
         quote:
-          "Hack the North was a weekend where I could learn and start a passion for building great products. The experience was transformative and led me to where I am today. What really stood out to me was this sense of camaraderie between different hackers. I walked away from that weekend with so much more knowledge, and I made a lot of close, new friends."
+          "JITHack was a weekend where I could learn and start a passion for building great products. The experience was transformative and led me to where I am today. What really stood out to me was this sense of camaraderie between different hackers. I walked away from that weekend with so much more knowledge, and I made a lot of close, new friends."
       },
       {
         person: "Michelle",
-        desc: "Hack the North 2015/2016 Finalist",
+        desc: "JITHack 2015/2016 Finalist",
         img: MichelleHackerHeadshotImg,
         link: "https://devpost.com/software/modernized-weasley-clock-yotu43",
         quote:
-          "Hack the North was my first (and second) hackathon, and the experience is still unforgettable! Everything Hack the North provided – inspiring speakers, mentors, workshops, food, coffee and free swag – contributed to an awesome supportive environment that made it really fun to hack away for those 36 hours."
+          "JITHack was my first (and second) hackathon, and the experience is still unforgettable! Everything JITHack provided – inspiring speakers, mentors, workshops, food, coffee and free swag – contributed to an awesome supportive environment that made it really fun to hack away for those 36 hours."
       }
     ]
   },
@@ -640,24 +678,24 @@ export default {
     title: "Frequently asked questions",
     body: [
       {
-        question: "What is Hack the North?",
+        question: "What is JITHack?",
         answer:
-          "Hack the North is Canada’s biggest hackathon, where 1,000 students of different skill levels come together from around the world to experiment and create unique software or hardware projects from scratch. We empower and enable teams to make something great in only 36 hours by providing an abundance of resources like workshops, mentors, sponsors, and hardware components."
+          "JITHack is Canada’s biggest hackathon, where 1,000 students of different skill levels come together from around the world to experiment and create unique software or hardware projects from scratch. We empower and enable teams to make something great in only 36 hours by providing an abundance of resources like workshops, mentors, sponsors, and hardware components."
       },
       {
         question: "Who can participate?",
         answer:
-          "Students of any education level from anywhere in the world are eligible to apply for Hack the North!"
+          "Students of any education level from anywhere in the world are eligible to apply for JITHack!"
       },
       {
-        question: "How much does it cost to attend Hack the North?",
+        question: "How much does it cost to attend JITHack?",
         answer:
-          "Admission to Hack the North is completely free. We also provide food and accommodation for the entire event and help out as much as we can with your transportation to and from the University of Waterloo!"
+          "Admission to JITHack is completely free. We also provide food and accommodation for the entire event and help out as much as we can with your transportation to and from the University of Waterloo!"
       },
       {
-        question: "How do I get to Hack the North?",
+        question: "How do I get to JITHack?",
         answer:
-          "We will be providing several buses from schools within driving distance of the University of Waterloo, as well as from nearby airports. For students who need to fly to Hack the North, we subsidize as much of your plane ticket as possible."
+          "We will be providing several buses from schools within driving distance of the University of Waterloo, as well as from nearby airports. For students who need to fly to JITHack, we subsidize as much of your plane ticket as possible."
       },
       {
         question: "How many people can be on a team?",
@@ -667,12 +705,12 @@ export default {
       {
         question: "What if I've never been to a hackathon before?",
         answer:
-          "Hack the North welcomes students of all skill levels. In previous years, 30% of students have attended Hack the North as their first hackathon. We’ll have talks, mentors and workshops to help you with your project; hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
+          "JITHack welcomes students of all skill levels. In previous years, 30% of students have attended JITHack as their first hackathon. We’ll have talks, mentors and workshops to help you with your project; hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
       },
       {
         question: "Can I start working on my hack before the event?",
         answer:
-          "No. In the interest of fairness, students should not be working on their projects before Hack the North begins and we do not allow participants to work on pre-existing projects. However, you can familiarize yourself with all the tools and technologies you intend to use beforehand! Hardware will also be provided to hackers who fill out hardware request forms made available after they have been accepted to the event."
+          "No. In the interest of fairness, students should not be working on their projects before JITHack begins and we do not allow participants to work on pre-existing projects. However, you can familiarize yourself with all the tools and technologies you intend to use beforehand! Hardware will also be provided to hackers who fill out hardware request forms made available after they have been accepted to the event."
       },
       {
         question:
@@ -681,7 +719,7 @@ export default {
           "Previously, we’ve held workshops and talks for a range of skill levels from beginner to advanced like Intro to Web Development and Team Building. We’ve also had introductory workshops to various programming tools such as APIs, databases and platforms. Activities like VR demos, meetups, and even karaoke happen throughout the weekend. Whether it’s for relaxation or health, novelty or competition, our team has something exciting prepared for you!"
       },
       {
-        question: "When will applications for Hack the North 2019 open?",
+        question: "When will applications for JITHack 2019 open?",
         answer:
           "They'll be opening in early June - follow us on social media to find out exactly when!"
       },
@@ -691,11 +729,11 @@ export default {
           <>
             If your question is not listed here, please feel free to reach out
             to us at{" "}
-            <Link href="mailto:hello@hackthenorth.com">
+            <Link href="mailto:jithack@jyothyit.ac.in">
               hello@hackthenorth.com
             </Link>{" "}
             or on{" "}
-            <Link href="https://www.facebook.com/hackthenorth" newTab>
+            <Link href="https://www.facebook.com/jyothyitofficial" newTab>
               Facebook
             </Link>
             .
@@ -706,115 +744,114 @@ export default {
   },
   footer: {
     img: Robogoose4IllustrationImg,
-    cta: "#YourHackTheNorth • What will you create?",
+    cta: "#YourJITHack • What will you create?",
     links: [
       {
-        text: "About Hack the North",
+        text: "About JITHack",
         hyperlink: "#about",
         newTab: false
       },
       {
         text: "Open Source",
-        hyperlink: "https://github.com/hackthenorth",
+        hyperlink: "https://github.com/techclubjit",
         newTab: true
       },
       {
-        text: "Privacy Policy",
-        hyperlink: "https://2018.hackthenorth.com/privacy",
+        text: "JIT",
+        hyperlink: "https://jyothyit.ac.in/",
         newTab: true
       },
-      {
-        text: "Code of Conduct",
-        hyperlink: "https://2018.hackthenorth.com/code-of-conduct",
-        newTab: true
-      }
+      // {
+      //   text: "About JIT",
+      //   hyperlink: "https://jyothyit.ac.in/about-us/",
+      //   newTab: true
+      // }
     ],
     socials: [
       {
         name: "Email",
         img: SocialEmailImg,
-        link: "mailto:hello@hackthenorth.com"
+        link: "mailto:jithack@jyothyit.ac.in"
       },
       {
         name: "Facebook",
         img: SocialFacebookImg,
-        link: "https://www.facebook.com/hackthenorth"
+        link: "https://www.facebook.com/jyothyitofficial"
       },
       {
         name: "Twitter",
         img: SocialTwitterImg,
-        link: "https://twitter.com/hackthenorth"
+        link: "https://twitter.com/Jyothyit"
       },
       {
         name: "Instagram",
         img: SocialInstaImg,
-        link: "https://www.instagram.com/hackthenorth/"
+        link: "https://www.instagram.com/jyothyitofficial/"
       }
     ],
     team: shuffle(team),
-    defaultOrganizerText: "Made with 💛 by students in Waterloo 🇨🇦"
+    defaultOrganizerText: "Made with 💕 by students from Jyothy Institute of Techonology"
   },
   leaders: {
-    title: "Be inspired by industry leaders",
+    title: "Student Developers",
     desc: (
       <Text className="desc" variant="sectionText">
-        Tech leaders come to Hack the North to be judges, to speak, and to be on
-        the ground innovating with hackers. Stay tuned for updates on this
+        Stay tuned for updates on this
         year's speakers and judges.
       </Text>
     ),
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders: [
       {
-        name: "Cat Noone",
-        title: "Founder, Iris",
+        name: "VINAY M",
+        title: "Developer",
         img: CatHeadshotImg
       },
       {
-        name: "Chamath Palihapitiya",
-        title: "CEO and Founder, Social Capital",
+        name: "Aditya Krishna",
+        title: "Developer",
         img: ChamathHeadshotImg
       },
       {
-        name: "Connie Yang",
-        title: "Design Director, Coinbase",
+        name: "Shishira Nataraj",
+        title: "Developer",
         img: ConnieHeadshotImg
       },
       {
-        name: "Dylan Field",
-        title: "CEO and Co-founder, Figma",
+        name: "Karthik",
+        title: "Developer",
         img: DylanHeadshotImg
       },
       {
-        name: "Ethan Wilding",
-        title: "Co-founder, Ledger Labs",
+        name: "Suhas Hanjar",
+        title: "Developer",
         img: EthanWildingHeadshotImg
       },
       {
-        name: "Jeff Coleman",
-        title: "Co-founder, Ledger Labs",
+        name: "Shravan",
+        title: "Developer",
         img: JeffHeadshotImg
       },
       {
-        name: "Jennifer Dewalt",
-        title: "Founder, Zube",
+        name: "Tushar",
+        title: "Developer",
         img: JenniferHeadshotImg
       },
-      {
-        name: "Tiffani Bell",
-        title: "Founder, The Human Utility",
-        img: TiffaniHeadshotImg
-      },
-      {
-        name: "Tracy Chou",
-        title: "Founding Advisor, Project Include",
-        img: TracyHeadshotImg
-      },
-      {
-        name: "Vinod Khosla",
-        title: "Co-founder,  Sun Microsystems",
-        img: VinodHeadshotImg
-      }
+      // {
+      //   name: "Tiffani Bell",
+      //   title: "Founder, The Human Utility",
+      //   img: TiffaniHeadshotImg
+      // },
+      // {
+      //   name: "Tracy Chou",
+      //   title: "Founding Advisor, Project Include",
+      //   img: TracyHeadshotImg
+      // },
+      // {
+      //   name: "Vinod Khosla",
+      //   title: "Co-founder,  Sun Microsystems",
+      //   img: VinodHeadshotImg
+      // }
     ]
   }
 };
