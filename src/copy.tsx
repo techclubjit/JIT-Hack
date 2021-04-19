@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import { Link, Text } from "@hackthenorth/north";
 import {
@@ -49,13 +50,13 @@ import {
   EthanWildingHeadshotImg,
   JeffHeadshotImg,
   JenniferHeadshotImg,
-  TiffaniHeadshotImg,
-  TracyHeadshotImg,
-  VinodHeadshotImg,
+  //TiffaniHeadshotImg,
+  //TracyHeadshotImg,
+ // VinodHeadshotImg,
   LightbulbBalloonCloudsIllustrationImg,
   // Navbar
-  LogoIconLightImg,
-  LogoIconDarkImg,
+  //LogoIconLightImg,
+ // LogoIconDarkImg,
   SocialFacebookImg,
   SocialFacebookImgDark,
   SocialInstaImg,
@@ -64,7 +65,7 @@ import {
   SocialTwitterImgDark,
   SocialEmailImg,
   Robogoose4IllustrationImg,
-  MichalHeadshotImg,
+ // MichalHeadshotImg,
   OrganizerHeadshotImg,
   MainLogo,
   MainLogoWhite
@@ -535,7 +536,7 @@ export default {
     gears: [
       {
         name: "speakers",
-        body: "Inspiring leaders and mentors from the tech industry",
+        body: "RECOGNIZED IN THE BAND OF 251-300 TOP ENGINEERING COLLEGES OF INDIA BY NIRF",
         images: [
           { id: "speaker1", url: SpeakerImg1 },
           { id: "speaker2", url: SpeakerImg2 },
@@ -547,7 +548,7 @@ export default {
       },
       {
         name: "activities",
-        body: "Enjoy fun and exciting activities throughout the event",
+        body: "while(timer!=0){ hackathon(); continue;}",
         images: [
           { id: "activity1", url: ActivityImg1 },
           { id: "activity2", url: ActivityImg2 },
@@ -559,7 +560,7 @@ export default {
       },
       {
         name: "hackers",
-        body: "Meet 1,000+ hackers from all around the globe",
+        body: "“First, solve the problem. Then, write the code.” – John Johnson",
         images: [
           { id: "hacker1", url: HackerImg1 },
           { id: "hacker2", url: HackerImg2 },
@@ -571,7 +572,7 @@ export default {
       },
       {
         name: "hardware",
-        body: "Access to state-of-the-art hardware",
+       body: "Alone we can do so little; together we can do so much",
         images: [
           { id: "hardware1", url: HardwareImg1 },
           { id: "hardware2", url: HardwareImg2 },
