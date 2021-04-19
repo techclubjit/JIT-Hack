@@ -235,7 +235,6 @@ const shuffle = <T extends {}>(array: T[]) => {
 
   return array;
 };
-
 const team = [
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
@@ -292,167 +291,6 @@ const team = [
     img: OrganizerHeadshotImg,
     alt: "JITHack LOGO"
   },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Open-sourced with 💕 by TechClub , JIT",
-  //   img: MichalHeadshotImg,
-  //   alt: "A headshot of TechClub"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-
 ];
 
 export default {
@@ -534,7 +372,7 @@ export default {
     gears: [
       {
         name: "speakers",
-        body: "Inspiring leaders and mentors from the tech industry",
+        body: "RECOGNIZED IN THE BAND OF 251-300 TOP ENGINEERING COLLEGES OF INDIA BY NIRF",
         images: [
           { id: "speaker1", url: SpeakerImg1 },
           { id: "speaker2", url: SpeakerImg2 },
@@ -546,7 +384,7 @@ export default {
       },
       {
         name: "activities",
-        body: "Enjoy fun and exciting activities throughout the event",
+        body: "while(timer!=0){ hackathon(); continue;}",
         images: [
           { id: "activity1", url: ActivityImg1 },
           { id: "activity2", url: ActivityImg2 },
@@ -558,7 +396,7 @@ export default {
       },
       {
         name: "hackers",
-        body: "Meet 1,000+ hackers from all around the globe",
+        body: "“First, solve the problem. Then, write the code.” – John Johnson",
         images: [
           { id: "hacker1", url: HackerImg1 },
           { id: "hacker2", url: HackerImg2 },
@@ -570,7 +408,7 @@ export default {
       },
       {
         name: "hardware",
-        body: "Access to state-of-the-art hardware",
+       body: "Alone we can do so little; together we can do so much",
         images: [
           { id: "hardware1", url: HardwareImg1 },
           { id: "hardware2", url: HardwareImg2 },
@@ -760,11 +598,6 @@ export default {
         hyperlink: "https://jyothyit.ac.in/",
         newTab: true
       },
-      // {
-      //   text: "About JIT",
-      //   hyperlink: "https://jyothyit.ac.in/about-us/",
-      //   newTab: true
-      // }
     ],
     socials: [
       {
@@ -835,22 +668,7 @@ export default {
         name: "Tushar",
         title: "Developer",
         img: JenniferHeadshotImg
-      },
-      // {
-      //   name: "Tiffani Bell",
-      //   title: "Founder, The Human Utility",
-      //   img: TiffaniHeadshotImg
-      // },
-      // {
-      //   name: "Tracy Chou",
-      //   title: "Founding Advisor, Project Include",
-      //   img: TracyHeadshotImg
-      // },
-      // {
-      //   name: "Vinod Khosla",
-      //   title: "Co-founder,  Sun Microsystems",
-      //   img: VinodHeadshotImg
-      // }
+      }
     ]
   }
 };
