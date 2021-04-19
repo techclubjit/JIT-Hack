@@ -252,7 +252,7 @@ const MailingListSignUp = (props: MailingListSignUpProps) => {
           disabled={signUpState === "SUBMITTING"}
         >
           <Loader loading={signUpState === "SUBMITTING"} render={Loading} />
-          <Image src={Arrow} alt="arrow" show={signUpState !== "SUBMITTING"} />
+          <Image src={Arrow} alt="arrow" show={signUpState !== "SUBMITTING"} style={{marginTop:"0.628em"}}/>
         </SignupButton>
       </EmailForm>
       {buttonVariant === "duplicate" || buttonVariant === "error" ? (
