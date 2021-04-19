@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import { Link, Text } from "@hackthenorth/north";
 import {
@@ -236,7 +237,6 @@ const shuffle = <T extends {}>(array: T[]) => {
 
   return array;
 };
-
 const team = [
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
@@ -293,11 +293,6 @@ const team = [
     img: OrganizerHeadshotImg,
     alt: "JITHack LOGO"
   },
-  {
-    text: "Made with 💕 by students from Jyothy Institute of Techonology",
-    img: OrganizerHeadshotImg,
-    alt: "JITHack LOGO"
-  }
 ];
 
 export default {
@@ -371,15 +366,15 @@ export default {
     sponsors
   },
   about: {
-    title: "Canada's biggest hackathon",
+    title: "About JITHack:",
     sentence1:
-      "Join 1,000+ students from all around the globe at the University of Waterloo to build something incredible in just 36 hours.",
+      "JITHack is a design and development event which takes place on 26.06.2021 which will be held online, the participating team gets 24 hours to build something incredible..",
     sentence2:
-      "At JITHack, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality. Let us handle food, travel, and all the details so you can create #YourHackTheNorth.",
+      "A competition like this aims at developing something amazing within a limited timeframe and also infuses work pressure among the participants, thus testing them beyond their limits. The most valuable part of any hackathon is the learning experience. Hackathons are great arenas for establishing bonds with like-minded individuals, gaining knowledge outside your comfort zone and learning how people can work together to achieve a common purpose and become a team..  Let your imagination take wings and fly by turning them into reality ! DREAM IT..HACK IT...WIN IT...!",
     gears: [
       {
         name: "speakers",
-        body: "Inspiring leaders and mentors from the tech industry",
+        body: "RECOGNIZED IN THE BAND OF 251-300 TOP ENGINEERING COLLEGES OF INDIA BY NIRF",
         images: [
           { id: "speaker1", url: SpeakerImg1 },
           { id: "speaker2", url: SpeakerImg2 },
@@ -391,7 +386,7 @@ export default {
       },
       {
         name: "activities",
-        body: "Enjoy fun and exciting activities throughout the event",
+        body: "while(timer!=0){ hackathon(); continue;}",
         images: [
           { id: "activity1", url: ActivityImg1 },
           { id: "activity2", url: ActivityImg2 },
@@ -403,7 +398,7 @@ export default {
       },
       {
         name: "hackers",
-        body: "Meet 1,000+ hackers from all around the globe",
+        body: "“First, solve the problem. Then, write the code.” – John Johnson",
         images: [
           { id: "hacker1", url: HackerImg1 },
           { id: "hacker2", url: HackerImg2 },
@@ -415,7 +410,7 @@ export default {
       },
       {
         name: "hardware",
-        body: "Access to state-of-the-art hardware",
+       body: "Alone we can do so little; together we can do so much",
         images: [
           { id: "hardware1", url: HardwareImg1 },
           { id: "hardware2", url: HardwareImg2 },
@@ -435,7 +430,7 @@ export default {
       logo: WaterlooEngLogoImg,
       illustration: EngineeringIllustrationImg,
       text:
-        "Our partner of over 5 years, Waterloo Engineering continues to support JITHack to build a creative, diverse, and unique experience for hackers. The University of Waterloo is home to Canada’s largest engineering school — a pipeline for engineering talent for the world’s leading companies. Ranked among the top 50 engineering schools in the world, the school’s reputation for excellence is built on the foundation of co-op education and a bold history of innovation."
+        "Jyothy Institute of Technology under the governance of Jyothy Charitable Trust which is headquartered at Bengaluru mainly focuses on delivering quality education that equips students for life and career. We offer Undergraduate, Postgraduate and Research Programmes in various disciplines. Focused teaching facilities coupled with practical and forward-thinking programmes lend a hand to students throughout their academic period. A significant amount of emphasis is given for extracurricular activities through various clubs, technical chapters, sports, and cultural activities."
     },
     video: {
       url:
@@ -604,7 +599,8 @@ export default {
         text: "JIT",
         hyperlink: "https://jyothyit.ac.in/",
         newTab: true
-      }
+
+      },
     ],
     socials: [
       {
@@ -676,21 +672,6 @@ export default {
         title: "Developer",
         img: JenniferHeadshotImg
       }
-      // {
-      //   name: "Tiffani Bell",
-      //   title: "Founder, The Human Utility",
-      //   img: TiffaniHeadshotImg
-      // },
-      // {
-      //   name: "Tracy Chou",
-      //   title: "Founding Advisor, Project Include",
-      //   img: TracyHeadshotImg
-      // },
-      // {
-      //   name: "Vinod Khosla",
-      //   title: "Co-founder,  Sun Microsystems",
-      //   img: VinodHeadshotImg
-      // }
     ]
   }
 };
