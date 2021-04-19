@@ -19,7 +19,7 @@ const ColumnContainer = styled.div`
 `;
 
 const Column: React.FC<ColumnProps> = ({ questions }) => {
-  const [openedIndex, setOpened] = useState(0);
+  const [openedIndex, setOpened] = useState(-1);
 
   const onQuestionClicked = (index: number) => {
     setOpened(openedIndex === index ? -1 : index);
