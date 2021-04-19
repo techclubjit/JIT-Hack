@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Export all images as modules so that webpack can deal with them appropriately
  * and in one file so that we have a centralized reference to all the images.
@@ -17,7 +18,7 @@ export { default as LogoAltDarkImg } from "./logos/alternative-dark.svg";
 export { default as LogoAltLightImg } from "./logos/alternative-light.svg";
 export { default as LogoIconDarkImg } from "./logos/icon-dark.svg"; // just the gear
 export { default as LogoIconLightImg } from "./logos/icon-light.svg";
- // just the gear
+// just the gear
 
 /* Social icons */
 export { default as SocialFacebookImg } from "./icons/book.svg";
@@ -148,7 +149,10 @@ export { default as TiffaniHeadshotImg } from "./leaders/tiffani-bell.jpg";
 export { default as TracyHeadshotImg } from "./leaders/tracy-chou.jpg";
 export { default as VinodHeadshotImg } from "./leaders/vinod-khosla.jpg";
 
+// eslint-disable-next-line prettier/prettier
 
-export { default as MainLogo } from "./logos/TC-Logo-C.svg"
-export { default as MainLogoWhite } from "./logos/TC-Logo-Final-W.svg"
-
+// eslint-disable-next-line prettier/prettier
+export { default as JitHackTransp } from "./logos/JITHack-Logo-Black-Transparent.svg";
+export { default as JitHackMainWhite } from "./logos/JITHack-Logo-White-Transparent.svg";
+export { default as JitBlack } from "./logos/LogoLarge-Black.svg";
+export { default as JitWhite } from "./logos/LogoLarge-White.svg";

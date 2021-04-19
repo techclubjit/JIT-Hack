@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState, FormEvent } from "react";
 import styled from "styled-components";
 import Arrow from "static/img/hero/arrow.svg";
