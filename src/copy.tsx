@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import { Link, Text } from "@hackthenorth/north";
 import {
@@ -49,13 +50,13 @@ import {
   EthanWildingHeadshotImg,
   JeffHeadshotImg,
   JenniferHeadshotImg,
-  TiffaniHeadshotImg,
+  /*TiffaniHeadshotImg,
   TracyHeadshotImg,
-  VinodHeadshotImg,
+  VinodHeadshotImg,*/
   LightbulbBalloonCloudsIllustrationImg,
   // Navbar
-  LogoIconLightImg,
-  LogoIconDarkImg,
+  //LogoIconLightImg,
+  //LogoIconDarkImg,
   SocialFacebookImg,
   SocialFacebookImgDark,
   SocialInstaImg,
@@ -64,7 +65,7 @@ import {
   SocialTwitterImgDark,
   SocialEmailImg,
   Robogoose4IllustrationImg,
-  MichalHeadshotImg,
+  //MichalHeadshotImg,
   OrganizerHeadshotImg,
   MainLogo,
   MainLogoWhite
@@ -513,9 +514,7 @@ export default {
         </Text>
         <Text variant="sectionText" as="p">
           Interested in sponsoring? Email us at{" "}
-          <Link href="mailto:sponsor@jithack.tech">
-            sponsor@jithack.tech
-          </Link>
+          <Link href="mailto:sponsor@jithack.tech">sponsor@jithack.tech</Link>
         </Text>
       </>
     ),
@@ -527,11 +526,11 @@ export default {
     sponsors
   },
   about: {
-    title: "Canada's biggest hackathon",
+    title: "About JITHack:",
     sentence1:
-      "Join 1,000+ students from all around the globe at the University of Waterloo to build something incredible in just 36 hours.",
+      "JITHack is a design sprint-like event which takes place on 26.06.2021 which will be held online, the participating team gets 24 hours to build something incredible..",
     sentence2:
-      "At JITHack, we want to make it easy for anyone to dream big. Our hackathon aims to engage and empower students of all experience levels by providing the resources to turn your ideas into a reality. Let us handle food, travel, and all the details so you can create #YourHackTheNorth.",
+      "A competition like this aims at developing something amazing within a limited timeframe and also infuses work pressure among the participants, thus testing them beyond their limits. The most valuable part of any hackathon is the learning experience. Hackathons are great arenas for establishing bonds with like-minded individuals, gaining knowledge outside your comfort zone and learning how people can work together to achieve a common purpose and become a team..  Let your imagination take wings and fly by turning them into reality ! DREAM IT..HACK IT...WIN IT...!",
     gears: [
       {
         name: "speakers",
@@ -591,7 +590,7 @@ export default {
       logo: WaterlooEngLogoImg,
       illustration: EngineeringIllustrationImg,
       text:
-        "Our partner of over 5 years, Waterloo Engineering continues to support JITHack to build a creative, diverse, and unique experience for hackers. The University of Waterloo is home to Canada’s largest engineering school — a pipeline for engineering talent for the world’s leading companies. Ranked among the top 50 engineering schools in the world, the school’s reputation for excellence is built on the foundation of co-op education and a bold history of innovation."
+        "Jyothy Institute of Technology under the governance of Jyothy Charitable Trust which is headquartered at Bengaluru mainly focuses on delivering quality education that equips students for life and career. We offer Undergraduate, Postgraduate and Research Programmes in various disciplines. Focused teaching facilities coupled with practical and forward-thinking programmes lend a hand to students throughout their academic period. A significant amount of emphasis is given for extracurricular activities through various clubs, technical chapters, sports, and cultural activities."
     },
     video: {
       url:
