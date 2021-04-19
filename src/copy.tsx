@@ -49,9 +49,9 @@ import {
   EthanWildingHeadshotImg,
   JeffHeadshotImg,
   JenniferHeadshotImg,
-  //TiffaniHeadshotImg,
-  //TracyHeadshotImg,
-  //VinodHeadshotImg,
+  /*TiffaniHeadshotImg,
+  TracyHeadshotImg,
+  VinodHeadshotImg,*/
   LightbulbBalloonCloudsIllustrationImg,
   // Navbar
   //LogoIconLightImg,
@@ -292,167 +292,12 @@ const team = [
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
     img: OrganizerHeadshotImg,
     alt: "JITHack LOGO"
+  },
+  {
+    text: "Made with 💕 by students from Jyothy Institute of Techonology",
+    img: OrganizerHeadshotImg,
+    alt: "JITHack LOGO"
   }
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Open-sourced with 💕 by TechClub , JIT",
-  //   img: MichalHeadshotImg,
-  //   alt: "A headshot of TechClub"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
-  // {
-  //   text: "Made with 💕 by students from Jyothy Institute of Techonology",
-  //   img: OrganizerHeadshotImg,
-  //   alt: "JITHack LOGO"
-  // },
 ];
 
 export default {
@@ -760,11 +605,6 @@ export default {
         hyperlink: "https://jyothyit.ac.in/",
         newTab: true
       }
-      // {
-      //   text: "About JIT",
-      //   hyperlink: "https://jyothyit.ac.in/about-us/",
-      //   newTab: true
-      // }
     ],
     socials: [
       {
