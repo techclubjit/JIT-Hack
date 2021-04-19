@@ -67,8 +67,10 @@ import {
   Robogoose4IllustrationImg,
   //MichalHeadshotImg,
   OrganizerHeadshotImg,
-  MainLogo,
-  MainLogoWhite
+  JitHackTransp,
+  JitHackMainWhite,
+  JitBlack,
+  JitWhite
 } from "static/img";
 
 interface Sponsor {
@@ -238,7 +240,7 @@ const shuffle = <T extends {}>(array: T[]) => {
 const team = [
   {
     text: "Made with 💕 by students from Jyothy Institute of Techonology",
-    img: MainLogo,
+    img: JitHackTransp,
     alt: "JITHack LOGO"
   },
   {
@@ -296,10 +298,10 @@ const team = [
 export default {
   nav: {
     logo: {
-      light: MainLogoWhite,
-      dark: MainLogo
+      light: JitWhite,
+      dark: JitBlack
     },
-    sections: ["About", "Leaders", "Sponsors", "FAQ"],
+    sections: ["About", "Devs", "Sponsors", "FAQ"],
     socialLinks: [
       {
         name: "facebook",
@@ -479,7 +481,7 @@ export default {
       },
       {
         person: "Bruno",
-        desc: "JITHack 2018 First-time Hacker",
+        desc: "JITHack 2021 First-time Hacker",
         img: BrunoHackerHeadshotImg,
         link: "https://devpost.com/software/instaface",
         quote:
@@ -487,7 +489,7 @@ export default {
       },
       {
         person: "Jacky",
-        desc: "JITHack 2018 Experienced Hacker",
+        desc: "JITHack 2021 Experienced Hacker",
         img: JackyHackerHeadshotImg,
         link: "https://devpost.com/software/tappit-crypto-payments-over-nfc",
         quote:
@@ -517,12 +519,12 @@ export default {
       {
         question: "What is JITHack?",
         answer:
-          "JITHack is Canada’s biggest hackathon, where 1,000 students of different skill levels come together from around the world to experiment and create unique software or hardware projects from scratch. We empower and enable teams to make something great in only 36 hours by providing an abundance of resources like workshops, mentors, sponsors, and hardware components."
+          "JITHack is a hackathon where students of different skill levels come together from around the world to experiment and create unique software or hardware projects from scratch. We empower and enable teams to make something great in only 36 hours by providing an abundance of resources like workshops, mentors, sponsors, and hardware components."
       },
       {
         question: "Who can participate?",
         answer:
-          "Students of any education level from anywhere in the world are eligible to apply for JITHack!"
+          "Students of any education level from anywhere in the nation are eligible to apply for JITHack!"
       },
       {
         question: "How much does it cost to attend JITHack?",
@@ -556,7 +558,7 @@ export default {
           "Previously, we’ve held workshops and talks for a range of skill levels from beginner to advanced like Intro to Web Development and Team Building. We’ve also had introductory workshops to various programming tools such as APIs, databases and platforms. Activities like VR demos, meetups, and even karaoke happen throughout the weekend. Whether it’s for relaxation or health, novelty or competition, our team has something exciting prepared for you!"
       },
       {
-        question: "When will applications for JITHack 2019 open?",
+        question: "When will applications for JITHack 2021 open?",
         answer:
           "They'll be opening in early June - follow us on social media to find out exactly when!"
       },
@@ -597,6 +599,7 @@ export default {
         text: "JIT",
         hyperlink: "https://jyothyit.ac.in/",
         newTab: true
+
       },
     ],
     socials: [
@@ -622,14 +625,14 @@ export default {
       }
     ],
     team: shuffle(team),
-    defaultOrganizerText: "Made with 💕 by students from Jyothy Institute of Techonology"
+    defaultOrganizerText:
+      "Made with 💕 by students from Jyothy Institute of Techonology"
   },
   leaders: {
     title: "Student Developers",
     desc: (
       <Text className="desc" variant="sectionText">
-        Stay tuned for updates on this
-        year's speakers and judges.
+        Stay tuned for updates on this year's speakers and judges.
       </Text>
     ),
     img: LightbulbBalloonCloudsIllustrationImg,

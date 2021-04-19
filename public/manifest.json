@@ -1,15 +1,15 @@
 {
-  "name": "Hack the North",
-  "short_name": "Hack the North",
+  "name": "JITHack",
+  "short_name": "JITHack",
   "icons": [
       {
           "src": "/android-chrome-192x192.png",
-          "sizes": "192x192",
+          "sizes": "192x154",
           "type": "image/png"
       },
       {
           "src": "/android-chrome-512x512.png",
-          "sizes": "512x512",
+          "sizes": "512x409",
           "type": "image/png"
       }
   ],

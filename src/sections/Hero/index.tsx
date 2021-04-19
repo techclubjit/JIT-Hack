@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
@@ -172,6 +173,7 @@ const Hero = () => {
     window.dispatchEvent(new Event("resize"));
     return;
   }, []);
+  
 
   return (
     <HeroWrapper id="home">
