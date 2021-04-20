@@ -213,12 +213,12 @@ const sponsors: Sponsor[] = [
       linkLabel: "JITHack"
     }
   },
-  {
-    name: "Techyon",
-    tier: "partner",
-    imgSrc: TechyonLogoImg,
-    link: "https://techyon.org/"
-  }
+  // {
+  //   name: "Techyon",
+  //   tier: "partner",
+  //   imgSrc: TechyonLogoImg,
+  //   link: "https://techyon.org/"
+  // }
 ];
 
 // Taken from https://github.com/Daplie/knuth-shuffle
