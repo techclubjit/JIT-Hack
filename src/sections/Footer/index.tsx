@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
 import MailingListSignup from "components/MailingListSignup";
@@ -99,6 +99,16 @@ const Footer = () => {
     setOrganizerText(copy.footer.defaultOrganizerText);
   };
 
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <Wrapper>
       <Image alt="" src={copy.footer.img} />
@@ -129,9 +139,15 @@ const Footer = () => {
           </Link>
         ))}
       </Social>
-      <MailingWrapper>
+      <div 
+          className="apply-button" 
+          data-hackathon-slug="OUR_SLUG" 
+          data-button-theme="dark-inverted"
+          style={{height: "44px", width: "312px"}}
+        ></div>
+      {/* <MailingWrapper>
         <MailingListSignup footer width={width} />
-      </MailingWrapper>
+      </MailingWrapper> */}
       <HeadshotWrapper>
         <PoseGroup animateOnMount preEnterPose="before">
           <Error key={1}>

@@ -176,6 +176,16 @@ const Hero = () => {
     return;
   }, []);
   
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
 
   return (
     <HeroWrapper id="home">
@@ -195,16 +205,12 @@ const Hero = () => {
           <span style={{ whiteSpace: "pre" }}>{siteCopy.hero.subtitle}</span>
         </Text>
         {/* <MailingListSignup width={width} /> */}
-        <Button 
-        border="none"
-        color="#3770ff"
-        height = "48px"
-        onClick={() => console.log("you clicked!")}
-        //radius = "50%"
-        width = "312px"
-        children = "Apply With Devfolio"
-        padding = "5px 15px"
-      />
+        <div 
+          className="apply-button" 
+          data-hackathon-slug="OUR_SLUG" 
+          data-button-theme="dark"
+          style={{height: "44px", width: "312px"}}
+        ></div>
       </Content>
       {width <= 768 ? (
         <MobileWrapper className="parallax">

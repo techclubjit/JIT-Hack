@@ -3,6 +3,7 @@ import { North, ThemeDefinition } from "@hackthenorth/north";
 import themeDef from "theme";
 
 /* Sections */
+// tslint:disable-next-line
 import Navbar from "components/Navbar";
 import Hero from "sections/Hero";
 
