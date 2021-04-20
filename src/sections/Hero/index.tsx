@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
@@ -20,6 +21,7 @@ import Parallax from "react-rellax";
 import { Text } from "@hackthenorth/north";
 
 import siteCopy from "copy";
+import Button from "components/button/button";
 
 const getWindowDimensions = () => {
   const { innerWidth: width, innerHeight: height } = window;
@@ -192,7 +194,17 @@ const Hero = () => {
         <Text variant="subheader" as="p">
           <span style={{ whiteSpace: "pre" }}>{siteCopy.hero.subtitle}</span>
         </Text>
-        <MailingListSignup width={width} />
+        {/* <MailingListSignup width={width} /> */}
+        <Button 
+        border="none"
+        color="#3770ff"
+        height = "48px"
+        onClick={() => console.log("you clicked!")}
+        //radius = "50%"
+        width = "312px"
+        children = "Apply With Devfolio"
+        padding = "5px 15px"
+      />
       </Content>
       {width <= 768 ? (
         <MobileWrapper className="parallax">

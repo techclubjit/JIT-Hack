@@ -441,7 +441,7 @@ export default {
   storiesSection: {
     heading: "Everything you need to create something incredible",
     desc:
-      "For the past 5 years, we’ve continued to inspire students to discover the world around them and empower students like you who are eager to learn and create by providing an environment for you to explore and build with workshops, mentorship, and hardware.",
+      "For the past few years, we’ve continued to inspire students to discover the world around them and empower students like you who are eager to learn and create by providing an environment for you to explore and build with workshops, mentorship, and hardware.",
     stories: [
       {
         person: "Justin Trudeau",
@@ -532,19 +532,19 @@ export default {
           "Admission to JITHack is completely free. We also provide food and accommodation for the entire event and help out as much as we can with your transportation to and from the University of Waterloo!"
       },
       {
-        question: "How do I get to JITHack?",
+        question: "Is there anything that I need to prep?",
         answer:
-          "We will be providing several buses from schools within driving distance of the University of Waterloo, as well as from nearby airports. For students who need to fly to JITHack, we subsidize as much of your plane ticket as possible."
+          "Other than finding fellow brilliant minds with complementary skills to team up with, there is nothing that you need to prepare in advance, Ofcourse you need to prepare for being a night owl!!"
       },
       {
         question: "How many people can be on a team?",
         answer:
-          "You can form teams of up to 4 people. There are no restrictions for who they can be, so you can team up with hackers from any school, country, or experience level. Teams can be formed before or during the event."
+          "You can form teams of up to 4 people. There are no restrictions for who they can be, so you can team up with hackers from any college"
       },
       {
         question: "What if I've never been to a hackathon before?",
         answer:
-          "JITHack welcomes students of all skill levels. In previous years, 30% of students have attended JITHack as their first hackathon. We’ll have talks, mentors and workshops to help you with your project; hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
+          "JITHack welcomes students of all skill levels. Hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
       },
       {
         question: "Can I start working on my hack before the event?",
@@ -553,9 +553,9 @@ export default {
       },
       {
         question:
-          "What kind of workshops, talks, and activities will there be?",
+          "Can I sign up to be a mentor or a judge?",
         answer:
-          "Previously, we’ve held workshops and talks for a range of skill levels from beginner to advanced like Intro to Web Development and Team Building. We’ve also had introductory workshops to various programming tools such as APIs, databases and platforms. Activities like VR demos, meetups, and even karaoke happen throughout the weekend. Whether it’s for relaxation or health, novelty or competition, our team has something exciting prepared for you!"
+          "You sure can! More information about these roles and the application are on the Hackathon page."
       },
       {
         question: "When will applications for JITHack 2021 open?",
@@ -569,7 +569,7 @@ export default {
             If your question is not listed here, please feel free to reach out
             to us at{" "}
             <Link href="mailto:jithack@jyothyit.ac.in">
-              hello@hackthenorth.com
+              jithack@jyothyit.ac.in
             </Link>{" "}
             or on{" "}
             <Link href="https://www.facebook.com/jyothyitofficial" newTab>
