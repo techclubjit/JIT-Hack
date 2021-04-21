@@ -65,10 +65,6 @@ import {
   SocialTwitterImgDark,
   SocialEmailImg,
   Robogoose4IllustrationImg,
-  //MichalHeadshotImg,
-  OrganizerHeadshotImg,
-  JitHackTransp,
-  JitHackMainWhite,
   JitBlack,
   JitWhite
 } from "static/img";
@@ -238,11 +234,7 @@ const shuffle = <T extends {}>(array: T[]) => {
   return array;
 };
 const team = [
-  {
-    text: "Made with 💕 by students from Jyothy Institute of Techonology",
-    img: JitHackTransp,
-    alt: "JITHack LOGO"
-  },
+  
   {
     text: "VINAY M",
     img: CatHeadshotImg,
@@ -278,21 +270,7 @@ const team = [
     img: JenniferHeadshotImg,
     alt: "JITHack LOGO"
   },
-  {
-    text: "Made with 💕 by students from Jyothy Institute of Techonology",
-    img: OrganizerHeadshotImg,
-    alt: "JITHack LOGO"
-  },
-  {
-    text: "Made with 💕 by students from Jyothy Institute of Techonology",
-    img: OrganizerHeadshotImg,
-    alt: "JITHack LOGO"
-  },
-  {
-    text: "Made with 💕 by students from Jyothy Institute of Techonology",
-    img: OrganizerHeadshotImg,
-    alt: "JITHack LOGO"
-  },
+  
 ];
 
 export default {
@@ -354,12 +332,14 @@ export default {
         </Text>
         <Text variant="sectionText" as="p">
           Interested in sponsoring? Email us at{" "}
-          <Link href="mailto:sponsor@jithack.tech">sponsor@jithack.tech</Link>
+          <Link href="jithack@jyothyit.ac.in">
+          sponsor@jithack.tech
+          </Link>
         </Text>
       </>
     ),
     cta: {
-      link: "mailto:sponsor@jithack.tech",
+      link: "jithack@jyothyit.ac.in",
       label: "Become a sponsor"
     },
     illustration: SponsorIllustrationImg,
@@ -374,7 +354,7 @@ export default {
     gears: [
       {
         name: "speakers",
-        body: "RECOGNIZED IN THE BAND OF 251-300 TOP ENGINEERING COLLEGES OF INDIA BY NIRF",
+        body: "",
         images: [
           { id: "speaker1", url: SpeakerImg1 },
           { id: "speaker2", url: SpeakerImg2 },
@@ -386,7 +366,7 @@ export default {
       },
       {
         name: "activities",
-        body: "while(timer!=0){ hackathon(); continue;}",
+        body: "",
         images: [
           { id: "activity1", url: ActivityImg1 },
           { id: "activity2", url: ActivityImg2 },
@@ -398,7 +378,7 @@ export default {
       },
       {
         name: "hackers",
-        body: "“First, solve the problem. Then, write the code.” – John Johnson",
+        body: "",
         images: [
           { id: "hacker1", url: HackerImg1 },
           { id: "hacker2", url: HackerImg2 },
@@ -410,7 +390,7 @@ export default {
       },
       {
         name: "hardware",
-       body: "Alone we can do so little; together we can do so much",
+       body: "",
         images: [
           { id: "hardware1", url: HardwareImg1 },
           { id: "hardware2", url: HardwareImg2 },
@@ -514,66 +494,76 @@ export default {
     ]
   },
   faq: {
-    title: "Frequently asked questions",
+    title: "Frequently asked questions ❓",
     body: [
       {
-        question: "What is JITHack?",
+        question: "What is a hackathon?🤷‍♂️",
         answer:
-          "JITHack is a hackathon where students of different skill levels come together from around the world to experiment and create unique software or hardware projects from scratch. We empower and enable teams to make something great in only 36 hours by providing an abundance of resources like workshops, mentors, sponsors, and hardware components."
+          "A hackathon is a social coding event where programmers, designers, and developers collaborate to solve a problem and compete for cash prizes.It’s one part party, one part work-your-butt-off overnight battle against the clock and the competition."
       },
       {
-        question: "Who can participate?",
+        question: "Why would someone participate in a hackathon? 🎉",
         answer:
-          "Students of any education level from anywhere in the nation are eligible to apply for JITHack!"
+          "People participate in hackathons for lots of reasons: the challenge, the creative outlet, the community collaboration, the networking, the swag , exposure ,other exciting oppurtunities and ofcourse  icing on the cake that is the amazing , cool prizes."
       },
       {
-        question: "How much does it cost to attend JITHack?",
+        question: "How much does it cost? 💰",
         answer:
-          "Admission to JITHack is completely free. We also provide food and accommodation for the entire event and help out as much as we can with your transportation to and from the University of Waterloo!"
+          "FREE. Free for spectators. Free for participants."
       },
       {
-        question: "Is there anything that I need to prep?",
+        question: "Is there anything that I need to prep? 📖",
         answer:
-          "Other than finding fellow brilliant minds with complementary skills to team up with, there is nothing that you need to prepare in advance, Ofcourse you need to prepare for being a night owl!!"
+          "Other than finding fellow brilliant minds with complementary skills to team up with, there is nothing that you need to prepare in advance. Ofcourse you need to prepare for being a night owl!!;)"
       },
       {
-        question: "How many people can be on a team?",
+        question: "Will there be prizes? 🏆",
         answer:
-          "You can form teams of up to 4 people. There are no restrictions for who they can be, so you can team up with hackers from any college"
+          "yes, there will be amazing prizes!"
       },
       {
-        question: "What if I've never been to a hackathon before?",
+        question: "How will teams be judged? 👩‍⚖️",
         answer:
-          "JITHack welcomes students of all skill levels. Hackathons can be a great place to learn new skills in a short amount of time. Just be eager to learn, and excited to meet lots of awesome people."
+          "This year’s judging process will be based on several factors including Viability / Usefulness , Creativity of execution / Wow-effect , Technical complexity , Collaboration , Presentation"
       },
       {
-        question: "Can I start working on my hack before the event?",
+        question: "Who will be judging? 👩🏻‍⚖️",
         answer:
-          "No. In the interest of fairness, students should not be working on their projects before JITHack begins and we do not allow participants to work on pre-existing projects. However, you can familiarize yourself with all the tools and technologies you intend to use beforehand! Hardware will also be provided to hackers who fill out hardware request forms made available after they have been accepted to the event."
+          "The judge panel composition will be announced closer to the date of the hackathon."
       },
       {
         question:
-          "Can I sign up to be a mentor or a judge?",
+          "Can I sign up to be a mentor or a judge? 📜",
         answer:
-          "You sure can! More information about these roles and the application are on the Hackathon page."
+          "You sure can! More information about these roles and the application are on the Hackathon page. "
       },
       {
-        question: "When will applications for JITHack 2021 open?",
+        question: "Where do I sign up? 📄" ,
         answer:
-          "They'll be opening in early June - follow us on social media to find out exactly when!"
+          "Registration will be available soon!"
       },
       {
-        question: "404: Question Not Found",
+        question: "How does the application process work? ",
+        answer:
+          "We want to make sure that everyone who wants to attend is serious about it, therefore we will review your registration and then notify you fast as possible."
+      },
+      {
+        question: "Are we allowed to use third party components like open source libraries etc. to implement a solution - are there limitations on component licensing? 🤒",
+        answer:
+          "You can use any software, provided these are declared in the presentation and are being used lawfully i.e. under licence"
+      },
+      {
+        question: "Error 404: Question Not Found",
         answer: (
           <>
             If your question is not listed here, please feel free to reach out
             to us at{" "}
             <Link href="mailto:jithack@jyothyit.ac.in">
-              jithack@jyothyit.ac.in
+            jithack@jyothyit.ac.in
             </Link>{" "}
             or on{" "}
-            <Link href="https://www.facebook.com/jyothyitofficial" newTab>
-              Facebook
+            <Link href="https://instagram.com/techclubjit" newTab>
+              Instagram
             </Link>
             .
           </>
@@ -583,7 +573,7 @@ export default {
   },
   footer: {
     img: Robogoose4IllustrationImg,
-    cta: "#YourJITHack • What will you create?",
+    cta: "#jithack2021 • What will you create?",
     links: [
       {
         text: "About JITHack",

@@ -107,6 +107,7 @@ const Sponsors = () => (
         className="illustration"
         src={sponsorsSection.illustration}
         alt="Person writing on a whiteboard with a goose peeking out from behind it"
+        style={{ borderRadius: "35px" }}
       />
       <SponsorButton
         className="cta"

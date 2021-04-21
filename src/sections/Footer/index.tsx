@@ -41,7 +41,7 @@ const CarouselWrapper = styled.div`
   position: relative;
   margin: 15px -10% 0 -10%;
   & > .carousel {
-    width: 95vw;
+    width: 40vw;
     height: 70px;
 
     ${props => props.theme.mediaQueries.tabletMobile`
