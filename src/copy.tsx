@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable prettier/prettier */
 import React from "react";
 import { Link, Text } from "@hackthenorth/north";
@@ -66,7 +67,8 @@ import {
   SocialEmailImg,
   Robogoose4IllustrationImg,
   JitBlack,
-  JitWhite
+  JitWhite,
+  rakshitheadshot
 } from "static/img";
 
 interface Sponsor {
@@ -268,6 +270,11 @@ const team = [
   {
     text: "Tushar",
     img: JenniferHeadshotImg,
+    alt: "JITHack LOGO"
+  },
+  {
+    text: "Rakshith",
+    img: rakshitheadshot,
     alt: "JITHack LOGO"
   },
   
@@ -661,6 +668,11 @@ export default {
         name: "Tushar",
         title: "Developer",
         img: JenniferHeadshotImg
+      },
+      {
+        name: "Rakshith",
+        title: "Developer",
+        img: rakshitheadshot
       }
     ]
   }
