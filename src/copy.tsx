@@ -354,7 +354,7 @@ export default {
     gears: [
       {
         name: "speakers",
-        body: "RECOGNIZED IN THE BAND OF 251-300 TOP ENGINEERING COLLEGES OF INDIA BY NIRF",
+        body: "",
         images: [
           { id: "speaker1", url: SpeakerImg1 },
           { id: "speaker2", url: SpeakerImg2 },
@@ -366,7 +366,7 @@ export default {
       },
       {
         name: "activities",
-        body: "while(timer!=0){ hackathon(); continue;}",
+        body: "",
         images: [
           { id: "activity1", url: ActivityImg1 },
           { id: "activity2", url: ActivityImg2 },
@@ -378,7 +378,7 @@ export default {
       },
       {
         name: "hackers",
-        body: "“First, solve the problem. Then, write the code.” – John Johnson",
+        body: "",
         images: [
           { id: "hacker1", url: HackerImg1 },
           { id: "hacker2", url: HackerImg2 },
@@ -390,7 +390,7 @@ export default {
       },
       {
         name: "hardware",
-       body: "Alone we can do so little; together we can do so much",
+       body: "",
         images: [
           { id: "hardware1", url: HardwareImg1 },
           { id: "hardware2", url: HardwareImg2 },
