@@ -366,7 +366,7 @@ export default {
     sponsors
   },
   about: {
-    title: "About JITHack:",
+    title: "About JITHack",
     sentence1:
       "JITHack is a design and development event which takes place on 26.06.2021 which will be held online, the participating team gets 24 hours to build something incredible..",
     sentence2:

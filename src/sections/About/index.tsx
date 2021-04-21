@@ -169,6 +169,7 @@ const Engineering = () => (
       <EngineeringLogo
         src={aboutCopy.engineering.logo}
         alt="engineering-logo"
+        style={{height:"70px"}}
       />
       <Text as="p" variant="subheader">
         {aboutCopy.engineering.text}
