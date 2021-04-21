@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2560" height="10922" fill="none" viewBox="0 0 2560 10922"><linearGradient id="a" x1="1280" x2="1280" y1="0" y2="10921.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f4a5a2"/><stop offset=".149" stop-color="#e8b8a0"/><stop offset=".297" stop-color="#fcf7d9"/><stop offset=".445" stop-color="#b3dddb"/><stop offset=".594" stop-color="#59acd3"/><stop offset=".742" stop-color="#e2bfbb"/><stop offset=".891" stop-color="#f4a6a2"/><stop offset="1" stop-color="#e9b7a0"/></linearGradient><path fill="url(#a)" d="m0 0h2560v10921.5h-2560z"/></svg>
+<svg width="2560" height="10922" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <path fill="#87ceeb" d="m0,0l2560,0l0,10921.5l-2560,0l0,-10921.5z" id="svg_1"/>
+ </g>
+</svg>
