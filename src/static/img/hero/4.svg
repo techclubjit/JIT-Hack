@@ -1,18 +1,1 @@
-<svg width="2560" height="10922" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient y2="1" y1="0" x2="0.5" x1="0.5" id="svg_3">
-   <stop stop-opacity="0.99609" stop-color="#3147c4" offset="0.149"/>
-   <stop stop-opacity="0.99219" stop-color="#3147c4" offset="0"/>
-   <stop stop-opacity="0.99609" stop-color="#3147c4" offset="0.297"/>
-   <stop stop-opacity="0.99609" stop-color="#3147c4" offset="0.594"/>
-   <stop stop-opacity="0.99609" stop-color="#3147c4" offset="0.46875"/>
-   <stop stop-opacity="0.99609" stop-color="#3147c4" offset="0.742"/>
-   <stop stop-opacity="0.99609" stop-color="#3147c4" offset="0.891"/>
-   <stop stop-opacity="0.99609" stop-color="#3147c4" offset="1"/>
-  </linearGradient>
- </defs>
- <g>
-  <title>Layer 1</title>
-  <path id="svg_1" d="m0,0l2560,0l0,10921.5l-2560,0l0,-10921.5z" fill="url(#svg_3)"/>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="10922"><defs><linearGradient id="svg_3" x1=".5" x2=".5" y1="0" y2="1"><stop offset=".149" stop-color="#3147c4" stop-opacity=".996"/><stop offset="0" stop-color="#3147c4" stop-opacity=".992"/><stop offset=".297" stop-color="#3147c4" stop-opacity=".996"/><stop offset=".594" stop-color="#3147c4" stop-opacity=".996"/><stop offset=".469" stop-color="#3147c4" stop-opacity=".996"/><stop offset=".742" stop-color="#3147c4" stop-opacity=".996"/><stop offset=".891" stop-color="#3147c4" stop-opacity=".996"/><stop offset="1" stop-color="#3147c4" stop-opacity=".996"/></linearGradient></defs><g><title>Layer 1</title><path id="svg_1" fill="url(#svg_3)" d="m0,0l2560,0l0,10921.5l-2560,0l0,-10921.5z"/></g></svg>
