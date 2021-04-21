@@ -7,7 +7,6 @@
     "@syncfusion/ej2-react-buttons": "^19.1.54",
     "@types/lodash.throttle": "^4.1.6",
     "@types/node": "^11.13.9",
-    "@types/react": "^16.8.15",
     "@types/react-dom": "^16.8.4",
     "@types/react-lottie": "^1.2.2",
     "@types/smoothscroll-polyfill": "^0.3.1",
@@ -50,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^16.14.5",
     "@types/ua-parser-js": "^0.7.33",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "@typescript-eslint/parser": "^1.7.0",
