@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { memo } from "react";
 import styled from "styled-components";
 import { Text } from "@hackthenorth/north";
@@ -90,17 +91,19 @@ const Content = styled.div`
   `}
 `;
 const Stories = () => (
-  <StoriesWrapper id="stories">
-    <Content>
-      <Text className="heading" as="h2" variant="sectionHeading">
-        {siteCopy.storiesSection.heading}
-      </Text>
-      <Text className="sub" as="p" variant="sectionText">
-        {siteCopy.storiesSection.desc}
-      </Text>
-      <StoryShowcase />
-    </Content>
-  </StoriesWrapper>
+  <div>
+  </div>
+  // <StoriesWrapper id="stories">
+  //   <Content>
+  //     <Text className="heading" as="h2" variant="sectionHeading">
+  //       {siteCopy.storiesSection.heading}
+  //     </Text>
+  //     <Text className="sub" as="p" variant="sectionText">
+  //       {siteCopy.storiesSection.desc}
+  //     </Text>
+  //     <StoryShowcase />
+  //   </Content>
+  // </StoriesWrapper>
 );
 
 export default memo(Stories);

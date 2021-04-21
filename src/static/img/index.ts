@@ -156,3 +156,4 @@ export { default as JitHackTransp } from "./logos/JITHack-Logo-Black-Transparent
 export { default as JitHackMainWhite } from "./logos/JITHack-Logo-White-Transparent.svg";
 export { default as JitBlack } from "./logos/LogoLarge-Black.svg";
 export { default as JitWhite } from "./logos/LogoLarge-White.svg";
+export { default as rakshitheadshot } from "./leaders/rakshith.jpeg";
