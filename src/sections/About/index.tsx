@@ -169,7 +169,7 @@ const Engineering = () => (
       <EngineeringLogo
         src={aboutCopy.engineering.logo}
         alt="engineering-logo"
-        style={{height:"70px"}}
+        style={{ height: "70px" }}
       />
       <Text as="p" variant="subheader">
         {aboutCopy.engineering.text}
@@ -187,12 +187,12 @@ const About: React.FC = () => {
   return (
     <AboutWrapper id="about">
       {AboutTextBlock}
-      <RecapVideoButton
+      {/* <RecapVideoButton
         icon={aboutCopy.videoButton.icon}
         text={aboutCopy.videoButton.text}
         background={aboutCopy.videoButton.background}
         toggleVideo={() => toggleVideo(true)}
-      />
+      /> */}
       {isVideoOpen && (
         <VideoModal
           isVideoOpen={isVideoOpen}

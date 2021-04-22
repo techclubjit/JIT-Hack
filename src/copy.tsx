@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable prettier/prettier */
 import React from "react";
 import { Link, Text } from "@hackthenorth/north";
@@ -13,7 +14,6 @@ import {
   MichelleHackerHeadshotImg,
   // Sponsors & Partners
   TechyonLogoImg,
-  
   SponsorIllustrationImg,
   // About section imgs
   TrudeauHeadshotImg,
@@ -300,6 +300,11 @@ const team = [
     img: JenniferHeadshotImg,
     alt: "JITHack LOGO"
   },
+  {
+    text: "Rakshith",
+    img: rakshitheadshot,
+    alt: "JITHack LOGO"
+  },
   
 ];
 
@@ -522,7 +527,7 @@ export default {
     ]
   },
   faq: {
-    title: "Frequently asked questions ❓",
+    title: "Frequently asked questions",
     body: [
       {
         question: "What is a hackathon?🤷‍♂️",
@@ -571,7 +576,7 @@ export default {
           "Registration will be available soon!"
       },
       {
-        question: "How does the application process work? ",
+        question: "How does the application process work? 🤔",
         answer:
           "We want to make sure that everyone who wants to attend is serious about it, therefore we will review your registration and then notify you fast as possible."
       },
@@ -581,7 +586,7 @@ export default {
           "You can use any software, provided these are declared in the presentation and are being used lawfully i.e. under licence"
       },
       {
-        question: "Error 404: Question Not Found",
+        question: "Error 404: Question Not Found ❓",
         answer: (
           <>
             If your question is not listed here, please feel free to reach out
@@ -656,7 +661,7 @@ export default {
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders: [
       {
-        name: "VINAY M",
+        name: "Vinay M",
         title: "Developer",
         img: CatHeadshotImg
       },
@@ -665,13 +670,13 @@ export default {
         title: "Developer",
         img: ChamathHeadshotImg
       },
+//       {
+//         name: "Shishira Nataraj",
+//         title: "Developer",
+//         img: ConnieHeadshotImg
+//       },
       {
-        name: "Shishira Nataraj",
-        title: "Developer",
-        img: ConnieHeadshotImg
-      },
-      {
-        name: "Karthik",
+        name: "Karthik B R",
         title: "Developer",
         img: DylanHeadshotImg
       },
@@ -689,6 +694,11 @@ export default {
         name: "Tushar",
         title: "Developer",
         img: JenniferHeadshotImg
+      },
+      {
+        name: "Rakshith",
+        title: "Developer",
+        img: rakshitheadshot
       }
     ]
   }
