@@ -4,7 +4,7 @@ import { Text, Gallery, Link } from "@hackthenorth/north";
 
 import siteCopy from "copy";
 
-const sponsorsWithFeatures = siteCopy.sponsorsSection.sponsors.filter(
+/*const sponsorsWithFeatures = siteCopy.sponsorsSection.sponsors.filter(
   sponsor => sponsor.feature // keep only those with features
 );
 
@@ -176,4 +176,4 @@ const SponsorsFeature = () => {
   );
 };
 
-export default SponsorsFeature;
+export default SponsorsFeature;*/

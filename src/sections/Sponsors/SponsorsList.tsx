@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Text, Link } from "@hackthenorth/north";
 
 import siteCopy from "copy";
+import { isWhiteSpaceLike } from "typescript";
 
 const goldSponsors = siteCopy.sponsorsSection.sponsors.filter(
   sponsor => sponsor.tier === "gold"
@@ -13,15 +14,22 @@ const silverSponsors = siteCopy.sponsorsSection.sponsors.filter(
 const bronzeAndStartupSponsors = siteCopy.sponsorsSection.sponsors.filter(
   sponsor => sponsor.tier === "bronze" || sponsor.tier === "startup"
 );
+const platinumSponsors = siteCopy.sponsorsSection.sponsors.filter(
+  sponsor => sponsor.tier === "platinum"
+);
 
 const partners = siteCopy.sponsorsSection.sponsors.filter(
   sponsor => sponsor.tier === "partner"
 );
 
 const sponsorHeights = {
+  platinum: {
+    h: 115,
+    wm: 80
+  },
   gold: {
-    h: 225,
-    wm: 90
+    h: 100,
+    wm: 70
   },
   silver: {
     h: 85,
@@ -81,8 +89,26 @@ const SponsorImg = styled.img`
 const SponsorsList = () => (
   <>
     <Text as="h3" variant="subheading" id="sponsors">
-      Our sponsors
+     <strong><big> Our sponsors</big></strong>
     </Text>
+
+    <Text as="h1" variant="subheading">
+    <h4> <small>Platinum sponsors</small> </h4>
+  </Text>
+    <SponsorContainer>
+      {platinumSponsors.map(sponsor => (
+        <SponsorItem key={sponsor.name} href={sponsor.link} newTab tier="platinum">
+          <SponsorImg
+            src={sponsor.imgSrc}
+            alt={sponsor.name}
+            title={sponsor.name}
+          />
+        </SponsorItem>
+      ))}
+    </SponsorContainer>
+    <Text as="h1" variant="subheading">
+    <h4><small>Gold sponsors </small></h4>
+  </Text>
     <SponsorContainer>
       {goldSponsors.map(sponsor => (
         <SponsorItem key={sponsor.name} href={sponsor.link} newTab tier="gold">
@@ -127,9 +153,7 @@ const SponsorsList = () => (
       ))}
     </SponsorContainer>
 
-    <Text as="h3" variant="subheading">
-      Our partners
-    </Text>
+    
     <SponsorContainer>
       {partners.map(partner => (
         <SponsorItem
