@@ -5,7 +5,7 @@ import { Text, Button } from "@hackthenorth/north";
 import siteCopy from "copy";
 import SectionWrapper from "components/SectionWrapper";
 
-import SponsorsFeature from "./SponsorsFeature";
+/*import SponsorsFeature from "./SponsorsFeature";*/
 import SponsorsList from "./SponsorsList";
 
 const { sponsorsSection } = siteCopy;
@@ -117,7 +117,7 @@ const Sponsors = () => (
       </SponsorButton>
     </MainContent>
 
-    <SponsorsFeature />
+    
     <SponsorsList />
   </SponsorsWrapper>
 );

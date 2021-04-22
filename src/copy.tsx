@@ -14,7 +14,6 @@ import {
   MichelleHackerHeadshotImg,
   // Sponsors & Partners
   TechyonLogoImg,
-  SponsorLogoImg,
   SponsorIllustrationImg,
   // About section imgs
   TrudeauHeadshotImg,
@@ -68,12 +67,16 @@ import {
   Robogoose4IllustrationImg,
   JitBlack,
   JitWhite,
-  rakshitheadshot
-} from "static/img";
+  PsponsorImg,
+  gpolygonImg,
+  gtezosImg,
+  gportisImg,
+} from "static/img/";
+import { NewLineKind } from "typescript";
 
 interface Sponsor {
   name: string;
-  tier: "bronze" | "silver" | "gold" | "startup" | "partner";
+  tier: "bronze" | "silver" | "gold" |"platinum" | "startup" | "partner";
   imgSrc: string;
   link: string;
   feature?: {
@@ -84,7 +87,7 @@ interface Sponsor {
 }
 
 const sponsors: Sponsor[] = [
-  {
+ /*{
     name: "JITHack",
     tier: "bronze",
     imgSrc: SponsorLogoImg,
@@ -184,33 +187,58 @@ const sponsors: Sponsor[] = [
   {
     name: "JITHack",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
+    imgSrc: PsponsorImg,
     link: "https://jithack.netlify.app"
-  },
+  },*/
   {
-    name: "JITHack",
-    tier: "gold",
-    imgSrc: SponsorLogoImg,
-    link: "https://jithack.netlify.app",
-    feature: {
+    name: "Devfolio",
+    tier: "platinum",
+    imgSrc: PsponsorImg,
+    link: "https://devfolio.co",
+    /*feature: {
       text:
         "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
       link: "https://jithack.netlify.app",
       linkLabel: "JITHack"
-    }
+    }*/
   },
   {
-    name: "JITHack",
+    name: "Polygon (previously Matic Network)",
     tier: "gold",
-    imgSrc: SponsorLogoImg,
-    link: "https://jithack.netlify.app",
-    feature: {
+    imgSrc: gpolygonImg,
+    link: "https://polygon.technology/",
+    /*feature: {
       text:
         "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
       link: "https://jithack.netlify.app",
       linkLabel: "JITHack"
-    }
+    }*/
   },
+  {
+    name: "Portis by ShapeShift",
+    tier: "gold",
+    imgSrc: gportisImg,
+    link: "https://www.portis.io",
+    /*feature: {
+      text:
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
+    }*/
+  },
+  {
+    name: "Tezos",
+    tier: "gold",
+    imgSrc: gtezosImg,
+    link: "https://tezos.com",
+    /*feature: {
+      text:
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
+    }*/
+  },
+
   // {
   //   name: "Techyon",
   //   tier: "partner",
@@ -332,10 +360,7 @@ export default {
     desc: (
       <>
         <Text variant="sectionText">
-          Each year, our sponsors help us unite 1,000+ emerging developers,
-          designers, and builders. Our sponsors make it possible for hackers to
-          build something they're proud of. Stay tuned as we confirm more
-          sponsors for the event.
+        Sponsors help us  unite  a large chunk of young minds who are  wondeful designers,developers and builders thus helping those minds emerge in their field of work..Sponsor JITHack now!!
         </Text>
         <Text variant="sectionText" as="p">
           Interested in sponsoring? Email us at{" "}
@@ -375,6 +400,7 @@ export default {
         name: "activities",
         body: "",
         images: [
+          
           { id: "activity1", url: ActivityImg1 },
           { id: "activity2", url: ActivityImg2 },
           { id: "activity3", url: ActivityImg3 },
@@ -501,7 +527,7 @@ export default {
     ]
   },
   faq: {
-    title: "Frequently asked questions ❓",
+    title: "Frequently asked questions",
     body: [
       {
         question: "What is a hackathon?🤷‍♂️",
@@ -550,7 +576,7 @@ export default {
           "Registration will be available soon!"
       },
       {
-        question: "How does the application process work? ",
+        question: "How does the application process work? 🤔",
         answer:
           "We want to make sure that everyone who wants to attend is serious about it, therefore we will review your registration and then notify you fast as possible."
       },
@@ -560,7 +586,7 @@ export default {
           "You can use any software, provided these are declared in the presentation and are being used lawfully i.e. under licence"
       },
       {
-        question: "Error 404: Question Not Found",
+        question: "Error 404: Question Not Found ❓",
         answer: (
           <>
             If your question is not listed here, please feel free to reach out
@@ -635,7 +661,7 @@ export default {
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders: [
       {
-        name: "VINAY M",
+        name: "Vinay M",
         title: "Developer",
         img: CatHeadshotImg
       },
@@ -644,13 +670,13 @@ export default {
         title: "Developer",
         img: ChamathHeadshotImg
       },
+//       {
+//         name: "Shishira Nataraj",
+//         title: "Developer",
+//         img: ConnieHeadshotImg
+//       },
       {
-        name: "Shishira Nataraj",
-        title: "Developer",
-        img: ConnieHeadshotImg
-      },
-      {
-        name: "Karthik",
+        name: "Karthik B R",
         title: "Developer",
         img: DylanHeadshotImg
       },

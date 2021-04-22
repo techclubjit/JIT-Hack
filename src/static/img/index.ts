@@ -8,7 +8,10 @@
 
 /* Sponsor assets (logos, branding, etc) */
 export { default as WaterlooEngLogoImg } from "./sponsors/waterloo-eng.png";
-export { default as SponsorLogoImg } from "./sponsors/sponsor.png";
+export { default as PsponsorImg} from "./sponsors/Psponsor.png";
+export { default as gpolygonImg} from "./sponsors/gpolygon.png";
+export { default as gtezosImg} from "./sponsors/gtezos.png";
+export { default as gportisImg} from "./sponsors/gportis.png";
 export { default as TechyonLogoImg } from "./sponsors/techyon.png";
 
 /* Logos */
