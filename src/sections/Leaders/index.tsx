@@ -9,7 +9,7 @@ const leaders = [...copy.leaders.leaders, ...copy.leaders.leaders];
 
 const LeadersWrapper = styled(SectionWrapper)`
   display: flex;
-  color: ${props => props.theme.globalConstants.color.textLight};
+  color: ${props => props.theme.globalConstants.color.textDark};
   padding: 50px auto;
 
   ${props => props.theme.mediaQueries.tabletMobile`
