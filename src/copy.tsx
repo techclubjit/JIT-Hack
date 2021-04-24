@@ -12,6 +12,7 @@ import {
   JackyHackerHeadshotImg,
   KevinHackerHeadshotImg,
   MichelleHackerHeadshotImg,
+  rakshitheadshot,
   // Sponsors & Partners
   TechyonLogoImg,
   SponsorIllustrationImg,
