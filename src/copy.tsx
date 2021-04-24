@@ -366,14 +366,14 @@ export default {
         </Text>
         <Text variant="sectionText" as="p">
           Interested in sponsoring? Email us at{" "}
-          <Link href="jithack@jyothyit.ac.in">
-          sponsor@jithack.tech
+          <Link href="mailto:jithack@jyothyit.ac.in">
+          jithack@jyothyit.ac.in
           </Link>
         </Text>
       </>
     ),
     cta: {
-      link: "jithack@jyothyit.ac.in",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSdu-azPnd6vuGDEqfY4pRwUQWwRKDKe6g22ZWdk6VG-LGFyKw/viewform?usp=sf_link",
       label: "Become a sponsor"
     },
     illustration: SponsorIllustrationImg,
