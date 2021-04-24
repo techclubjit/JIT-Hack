@@ -13,7 +13,7 @@ const aboutCopy = copy.about;
 
 const AboutWrapper = styled(SectionWrapper)`
   padding-top: 150px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 `;
 
 const AboutTextWrapper = styled.div`
@@ -65,15 +65,15 @@ const EngineeringWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 715px;
+  margin-top: 600px;
 
   ${props => props.theme.mediaQueries.medium`
-    margin-top: 961px;
+    margin-top: 600px;
     flex-direction: column;
   `}
 
   ${props => props.theme.mediaQueries.tablet`
-    margin-top: 1050px;
+    margin-top: 900px;
   `}
 
   ${props => props.theme.mediaQueries.mobile`
