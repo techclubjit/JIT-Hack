@@ -1,13 +1,7 @@
 import React, { memo, useState } from "react";
 import styled from "styled-components";
 
-type SectionName =
-  | "about"
-  | "stories"
-  | "leaders"
-  | "sponsors"
-  | "faq"
-  | "other";
+type SectionName = "about" | "stories" | "leaders" | "sponsors" | "faq" | "other";
 
 interface BackgroundSections {
   [key: string]: {

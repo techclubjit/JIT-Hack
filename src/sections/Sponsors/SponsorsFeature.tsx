@@ -74,7 +74,7 @@ const GalleryBubble = styled.div`
   margin: auto;
   padding: 20px 30px;
 
-  background-color: rgba(243, 243, 243, 0.8);
+  background-color: rgba(135, 205, 238, 0.8);
   color: ${props => props.theme.globalConstants.color.textDark};
   border-radius: 8px;
 

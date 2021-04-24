@@ -100,14 +100,14 @@ const Footer = () => {
   };
 
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    }
+    };
   }, []);
   return (
     <Wrapper>
@@ -139,12 +139,12 @@ const Footer = () => {
           </Link>
         ))}
       </Social>
-      <div 
-          className="apply-button" 
-          data-hackathon-slug="OUR_SLUG" 
-          data-button-theme="dark-inverted"
-          style={{height: "44px", width: "312px"}}
-        ></div>
+      <div
+        className="apply-button"
+        data-hackathon-slug="OUR_SLUG"
+        data-button-theme="dark-inverted"
+        style={{ height: "44px", width: "312px" }}
+      />
       {/* <MailingWrapper>
         <MailingListSignup footer width={width} />
       </MailingWrapper> */}

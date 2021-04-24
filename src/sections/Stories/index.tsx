@@ -26,7 +26,7 @@ const Content = styled.div`
 
   height: 675px;
   margin: 5% auto;
-  color: ${props => props.theme.globalConstants.color.textLight};
+  color: ${props => props.theme.globalConstants.color.textDark};
 
   & > .heading {
     grid-area: heading;

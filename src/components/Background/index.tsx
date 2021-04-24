@@ -5,7 +5,7 @@ import BackgroundLayer from "./BackgroundLayer";
 type SectionName =
   | "about"
   | "stories"
-  | "leaders"
+  | "Devs"
   | "sponsors-cta"
   | "faq"
   | "other";
@@ -26,7 +26,7 @@ const sections: BackgroundSection[] = [
     bg: "#EFF8FA"
   },
   {
-    name: "leaders",
+    name: "Devs",
     bg: "linear-gradient(180deg, #B77554 0%, #C45E5E 98.96%)"
   },
   {
