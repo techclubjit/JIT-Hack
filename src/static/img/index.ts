@@ -160,3 +160,8 @@ export { default as JitHackMainWhite } from "./logos/JITHack-Logo-White-Transpar
 export { default as JitBlack } from "./logos/LogoLarge-Black.svg";
 export { default as JitWhite } from "./logos/LogoLarge-White.svg";
 export { default as rakshitheadshot } from "./leaders/rakshith.jpeg";
+export { default as srinidhiheadshot } from "./leaders/srinidhisir.jpg";
+export { default as manojheadshot } from "./leaders/manojsir.jpg";
+export {
+  default as cloudx
+} from "./illustrations/cloud.png";

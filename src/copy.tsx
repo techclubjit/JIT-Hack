@@ -73,6 +73,8 @@ import {
   gpolygonImg,
   gtezosImg,
   gportisImg,
+  srinidhiheadshot,
+  manojheadshot
 } from "static/img/";
 import { NewLineKind } from "typescript";
 
@@ -654,22 +656,22 @@ export default {
       "Made with 💕 by students from Jyothy Institute of Techonology"
   },
   leaders: {
-    title: "Student Developers",
+    title: "Core Team",
     desc: (
       <Text className="desc" variant="sectionText">
-        Stay tuned for updates on this year's speakers and judges.
+        Below are the Core Team Members.
       </Text>
     ),
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders: [
-      {
-        name: "Vinay M",
-        title: "Developer",
-        img: CatHeadshotImg
-      },
+      // {
+      //   name: "Vinay M",
+      //   title: "Developer",
+      //   img: CatHeadshotImg
+      // },
       {
         name: "Aditya Krishna",
-        title: "Developer",
+        title: "Core Team Developer",
         img: ChamathHeadshotImg
       },
 //       {
@@ -679,29 +681,100 @@ export default {
 //       },
       {
         name: "Karthik B R",
-        title: "Developer",
+        title: "Core Team Developer",
         img: DylanHeadshotImg
       },
+      // {
+      //   name: "Suhas Hanjar",
+      //   title: "Developer",
+      //   img: EthanWildingHeadshotImg
+      // },
+      // {
+      //   name: "Shravan",
+      //   title: "Developer",
+      //   img: JeffHeadshotImg
+      // },
+      // {
+      //   name: "Tushar",
+      //   title: "Developer",
+      //   img: JenniferHeadshotImg
+      // },
+      // {
+      //   name: "Rakshith",
+      //   title: "Developer",
+      //   img: rakshitheadshot
+      // },
+      {
+        name: "Mr. Srinidhi kulkarni V",
+        title: "Assistant Professor",
+        img: srinidhiheadshot
+      },
+      {
+        name: "Mr. Manoj Kumar M",
+        title: "Associate Professor",
+        img: manojheadshot
+      },
+    ]
+  },
+  leaders2: {
+    title: "Web Team",
+    desc: (
+      <Text className="desc" variant="sectionText">
+        Below is out Web Dev team.
+      </Text>
+    ),
+    img: LightbulbBalloonCloudsIllustrationImg,
+    leaders2: [
+      {
+        name: "Vinay M",
+        title: "Web Team Developer",
+        img: CatHeadshotImg
+      },
+//       {
+//         name: "Aditya Krishna",
+//         title: "Developer",
+//         img: ChamathHeadshotImg
+//       },
+// //       {
+// //         name: "Shishira Nataraj",
+// //         title: "Developer",
+// //         img: ConnieHeadshotImg
+// //       },
+//       {
+//         name: "Karthik B R",
+//         title: "Developer",
+//         img: DylanHeadshotImg
+//       },
       {
         name: "Suhas Hanjar",
-        title: "Developer",
+        title: "Web Team Developer",
         img: EthanWildingHeadshotImg
       },
       {
         name: "Shravan",
-        title: "Developer",
+        title: "Web Team Developer",
         img: JeffHeadshotImg
       },
       {
         name: "Tushar",
-        title: "Developer",
+        title: "Web Team Developer",
         img: JenniferHeadshotImg
       },
       {
         name: "Rakshith",
-        title: "Developer",
+        title: "Designer",
         img: rakshitheadshot
-      }
+      },
+      // {
+      //   name: "Mr. Srinidhi kulkarni V",
+      //   title: "Assistant Professor",
+      //   img: srinidhiheadshot
+      // },
+      // {
+      //   name: "Mr. Manoj Kumar M",
+      //   title: "Associate Professor",
+      //   img: manojheadshot
+      // },
     ]
   }
 };
