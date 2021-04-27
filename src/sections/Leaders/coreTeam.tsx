@@ -47,8 +47,8 @@ const Wrapper = styled.div`
     grid-area: illustration;
     justify-self: end;
     align-self: center;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 0%;
+    max-height: 0%;
   }
 
   ${props => props.theme.mediaQueries.tablet`
@@ -84,7 +84,7 @@ const LeaderBubbleWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 75px;
+  padding-right: 100px;
   text-align: center;
 `;
 
@@ -152,7 +152,7 @@ const CoreTeam = () => (
       <Text className="heading" as="h3" variant="sectionHeading">
         {copy.leaders2.title}
       </Text>
-      {copy.leaders2.desc}
+      {/* {copy.leaders2.desc} */}
       <img
         className="illustration"
         src={copy.leaders2.img}

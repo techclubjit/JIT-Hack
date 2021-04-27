@@ -165,3 +165,7 @@ export { default as manojheadshot } from "./leaders/manojsir.jpg";
 export {
   default as cloudx
 } from "./illustrations/cloud.png";
+export { default as sakethimg } from "./leaders/saketh.jpg";
+export { default as danushimg } from "./leaders/danush.jpg";
+export { default as shustiimg } from "./leaders/shrusti.jpg";
+export { default as prajwaliimg } from "./leaders/prajwal.png";

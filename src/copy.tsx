@@ -74,7 +74,11 @@ import {
   gtezosImg,
   gportisImg,
   srinidhiheadshot,
-  manojheadshot
+  manojheadshot,
+  sakethimg,
+  shustiimg,
+  danushimg,
+  prajwaliimg
 } from "static/img/";
 import { NewLineKind } from "typescript";
 
@@ -384,9 +388,10 @@ export default {
   about: {
     title: "About JITHack",
     sentence1:
-      "JITHack is a design and development event which takes place on 26.06.2021 which will be held online, the participating team gets 24 hours to build something incredible..",
+      "JITHack is a design and development event which takes place on June 26, 2021 which will be held online, the participating team gets 24 hours to build something incredible..",
     sentence2:
-      "A competition like this aims at developing something amazing within a limited timeframe and also infuses work pressure among the participants, thus testing them beyond their limits. The most valuable part of any hackathon is the learning experience. Hackathons are great arenas for establishing bonds with like-minded individuals, gaining knowledge outside your comfort zone and learning how people can work together to achieve a common purpose and become a team..  Let your imagination take wings and fly by turning them into reality ! DREAM IT..HACK IT...WIN IT...!",
+      "A competition like this aims at developing something amazing within a limited timeframe and also infuses work pressure among the participants, thus testing them beyond their limits. The most valuable part of any hackathon is the learning experience. Hackathons are great arenas for establishing bonds with like-minded individuals, gaining knowledge outside your comfort zone and learning how people can work together to achieve a common purpose and become a team..  Let your imagination take wings and fly by turning them into reality!",
+    sentence3: "DREAM IT..HACK IT...WIN IT...!",
     gears: [
       {
         name: "speakers",
@@ -618,16 +623,16 @@ export default {
         newTab: false
       },
       {
-        text: "Open Source",
+        text: "Open Source @ JIT",
         hyperlink: "https://github.com/techclubjit",
         newTab: true
       },
-      {
-        text: "JIT",
-        hyperlink: "https://jyothyit.ac.in/",
-        newTab: true
+      // {
+      //   text: "JIT",
+      //   hyperlink: "https://jyothyit.ac.in/",
+      //   newTab: true
 
-      },
+      // },
     ],
     socials: [
       {
@@ -657,11 +662,11 @@ export default {
   },
   leaders: {
     title: "Core Team",
-    desc: (
-      <Text className="desc" variant="sectionText">
-        Below are the Core Team Members.
-      </Text>
-    ),
+    // desc: (
+    //   <Text className="desc" variant="sectionText">
+    //     Below are the Core Team Members.
+    //   </Text>
+    // ),
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders: [
       // {
@@ -671,17 +676,17 @@ export default {
       // },
       {
         name: "Aditya Krishna",
-        title: "Core Team Developer",
+        title: "Core Team",
         img: ChamathHeadshotImg
       },
-//       {
-//         name: "Shishira Nataraj",
-//         title: "Developer",
-//         img: ConnieHeadshotImg
-//       },
+      {
+        name: "Shishira Nataraj",
+        title: "Core Team",
+        img: ConnieHeadshotImg
+      },
       {
         name: "Karthik B R",
-        title: "Core Team Developer",
+        title: "Core Team",
         img: DylanHeadshotImg
       },
       // {
@@ -714,20 +719,40 @@ export default {
         title: "Associate Professor",
         img: manojheadshot
       },
+      {
+        name: "Saketh",
+        title: "Core Team",
+        img: sakethimg
+      },
+      {
+        name: "Danush",
+        title: "Core Team",
+        img: danushimg
+      },
+      {
+        name: "Shrusti",
+        title: "Core Team",
+        img: shustiimg
+      },
+      {
+        name: "Prajwal",
+        title: "Core Team",
+        img: prajwaliimg
+      }
     ]
   },
   leaders2: {
     title: "Web Team",
-    desc: (
-      <Text className="desc" variant="sectionText">
-        Below is out Web Dev team.
-      </Text>
-    ),
+    // desc: (
+    //   <Text className="desc" variant="sectionText">
+    //     Below is out Web Dev team.
+    //   </Text>
+    // ),
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders2: [
       {
         name: "Vinay M",
-        title: "Web Team Developer",
+        title: "Web Team",
         img: CatHeadshotImg
       },
 //       {
@@ -747,17 +772,17 @@ export default {
 //       },
       {
         name: "Suhas Hanjar",
-        title: "Web Team Developer",
+        title: "Web Team",
         img: EthanWildingHeadshotImg
       },
       {
         name: "Shravan",
-        title: "Web Team Developer",
+        title: "Web Team",
         img: JeffHeadshotImg
       },
       {
         name: "Tushar",
-        title: "Web Team Developer",
+        title: "Web Team",
         img: JenniferHeadshotImg
       },
       {

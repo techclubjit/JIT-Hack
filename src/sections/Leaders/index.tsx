@@ -11,6 +11,7 @@ const leaders = [...copy.leaders.leaders, ...copy.leaders.leaders];
 const LeadersWrapper = styled(SectionWrapper)`
   display: flex;
   color: ${props => props.theme.globalConstants.color.textDark};
+  padding: 50px auto;
   
 
   ${props => props.theme.mediaQueries.tabletMobile`
@@ -34,7 +35,7 @@ const Wrapper = styled.div`
     grid-area: heading;
     align-self: end;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     ${props => props.theme.mediaQueries.tabletMobile`
       margin-bottom: 10px;
@@ -48,8 +49,8 @@ const Wrapper = styled.div`
     grid-area: illustration;
     justify-self: end;
     align-self: center;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 0%;
+    max-height: 0%;
   }
 
   ${props => props.theme.mediaQueries.tablet`
@@ -85,7 +86,7 @@ const LeaderBubbleWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 75px;
+  padding-right: 100px;
   text-align: center;
 `;
 
@@ -153,14 +154,14 @@ const Leaders = () => (
       <Text className="heading" as="h3" variant="sectionHeading">
         {copy.leaders.title}
       </Text>
-      {copy.leaders.desc}
+      {/* {copy.leaders.desc} */}
       <img
         className="illustration"
         src={copy.leaders.img}
         alt="Lightbulb that is an air ballon with two people looking outwards"
       />
       <CarouselWrapper>
-        <Carousel className="carousel" itemWidth={125} duration={50}>
+        <Carousel className="carousel" itemWidth={125} duration={85}>
           {getImages()}
         </Carousel>
       </CarouselWrapper>

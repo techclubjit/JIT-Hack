@@ -156,6 +156,9 @@ const AboutTextBlock = (
     <Text as="p" variant="subheader">
       {aboutCopy.sentence2}
     </Text>
+    <Text as="h1" variant="subheader">
+      {aboutCopy.sentence3}
+    </Text>
   </AboutTextWrapper>
 );
 
