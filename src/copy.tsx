@@ -78,7 +78,8 @@ import {
   sakethimg,
   shustiimg,
   danushimg,
-  prajwaliimg
+  prajwaliimg,
+  aishimg
 } from "static/img/";
 import { NewLineKind } from "typescript";
 
@@ -738,6 +739,11 @@ export default {
         name: "Prajwal",
         title: "Core Team",
         img: prajwaliimg
+      },
+      {
+        name: "Aishwarya",
+        title: "Core Team",
+        img: aishimg
       }
     ]
   },
