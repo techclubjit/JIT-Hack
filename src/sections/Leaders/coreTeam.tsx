@@ -5,14 +5,12 @@ import { Carousel, Text } from "@hackthenorth/north";
 
 import SectionWrapper from "components/SectionWrapper";
 
-const leaders = [...copy.leaders.leaders, ...copy.leaders.leaders];
-
+const leaders2 = [...copy.leaders2.leaders2, ...copy.leaders2.leaders2];
 
 const LeadersWrapper = styled(SectionWrapper)`
   display: flex;
   color: ${props => props.theme.globalConstants.color.textDark};
   padding: 50px auto;
-  
 
   ${props => props.theme.mediaQueries.tabletMobile`
     width: 100%;
@@ -35,7 +33,7 @@ const Wrapper = styled.div`
     grid-area: heading;
     align-self: end;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
     ${props => props.theme.mediaQueries.tabletMobile`
       margin-bottom: 10px;
@@ -136,7 +134,7 @@ const CarouselWrapper = styled.div`
 `;
 
 const getImages = () =>
-  leaders.map((leader, i) => (
+  leaders2.map((leader, i) => (
     <LeaderBubbleWrapper key={`${leader.name}${i}`}>
       <Image src={leader.img} alt={leader.name} />
       <Text as="p" variant="leaderName">
@@ -148,20 +146,20 @@ const getImages = () =>
     </LeaderBubbleWrapper>
   ));
 
-const Leaders = () => (
+const CoreTeam = () => (
   <LeadersWrapper id="devs">
     <Wrapper>
       <Text className="heading" as="h3" variant="sectionHeading">
-        {copy.leaders.title}
+        {copy.leaders2.title}
       </Text>
-      {/* {copy.leaders.desc} */}
+      {/* {copy.leaders2.desc} */}
       <img
         className="illustration"
-        src={copy.leaders.img}
+        src={copy.leaders2.img}
         alt="Lightbulb that is an air ballon with two people looking outwards"
       />
       <CarouselWrapper>
-        <Carousel className="carousel" itemWidth={125} duration={85}>
+        <Carousel className="carousel" itemWidth={125} duration={50}>
           {getImages()}
         </Carousel>
       </CarouselWrapper>
@@ -169,4 +167,4 @@ const Leaders = () => (
   </LeadersWrapper>
 );
 
-export default Leaders;
+export default CoreTeam;

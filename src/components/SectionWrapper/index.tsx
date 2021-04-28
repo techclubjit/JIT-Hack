@@ -14,7 +14,7 @@ const Container = styled.section`
   box-sizing: border-box;
   overflow-x: hidden;
 
-  min-height: 100vh;
+  min-height: 20vh;
   max-width: ${props => props.theme.globalConstants.width.sectionsLarge}px;
   width: 100%;
 
