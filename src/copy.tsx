@@ -79,7 +79,9 @@ import {
   shustiimg,
   danushimg,
   prajwaliimg,
-  aishimg
+  aishimg,
+  gcelo,
+
 } from "static/img/";
 import { NewLineKind } from "typescript";
 
@@ -240,6 +242,18 @@ const sponsors: Sponsor[] = [
     tier: "gold",
     imgSrc: gtezosImg,
     link: "https://tezos.com",
+    /*feature: {
+      text:
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
+    }*/
+  },
+  {
+    name: "Celo",
+    tier: "gold",
+    imgSrc: gcelo,
+    link: "https://celo.org",
     /*feature: {
       text:
         "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
