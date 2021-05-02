@@ -147,7 +147,7 @@ const getImages = () =>
   ));
 
 const CoreTeam = () => (
-  <LeadersWrapper id="devs">
+  <LeadersWrapper id="team">
     <Wrapper>
       <Text className="heading" as="h3" variant="sectionHeading">
         {copy.leaders2.title}

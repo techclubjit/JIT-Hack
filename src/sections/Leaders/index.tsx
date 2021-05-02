@@ -149,7 +149,7 @@ const getImages = () =>
   ));
 
 const Leaders = () => (
-  <LeadersWrapper id="devs">
+  <LeadersWrapper id="team">
     <Wrapper>
       <Text className="heading" as="h3" variant="sectionHeading">
         {copy.leaders.title}

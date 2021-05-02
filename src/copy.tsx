@@ -337,7 +337,7 @@ export default {
       light: JitWhite,
       dark: JitBlack
     },
-    sections: ["About", "Devs", "Sponsors", "FAQ"],
+    sections: ["About", "Team", "Sponsors", "FAQ"],
     socialLinks: [
       {
         name: "facebook",
@@ -406,7 +406,7 @@ export default {
       "JITHack is a design and development event which takes place on June 26, 2021 which will be held online, the participating team gets 24 hours to build something incredible..",
     sentence2:
       "A competition like this aims at developing something amazing within a limited timeframe and also infuses work pressure among the participants, thus testing them beyond their limits. The most valuable part of any hackathon is the learning experience. Hackathons are great arenas for establishing bonds with like-minded individuals, gaining knowledge outside your comfort zone and learning how people can work together to achieve a common purpose and become a team..  Let your imagination take wings and fly by turning them into reality!",
-    sentence3: "DREAM IT..HACK IT...WIN IT...!",
+    sentence3: "DREAM IT.. \t HACK IT.. \t WIN IT..!",
     gears: [
       {
         name: "speakers",

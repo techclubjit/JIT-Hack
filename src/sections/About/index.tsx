@@ -24,6 +24,10 @@ const AboutTextWrapper = styled.div`
   h1 {
     color: ${props => props.theme.globalConstants.color.textLight} !important;
   }
+  h1 {
+    color: ${props => props.theme.globalConstants.color.textLight} !important;
+    font-weight: 700 !important;
+  }
 
   ${props => props.theme.mediaQueries.medium`
     width: 60%;
