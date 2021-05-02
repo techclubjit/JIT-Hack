@@ -137,21 +137,17 @@ export { default as SpeakerImg3 } from "./photos/speaker3.png";
 export { default as SpeakerImg4 } from "./photos/speaker4.png";
 
 /* Judges */
-export { default as BalajiHeadshotImg } from "./leaders/balaji-srinivasan.jpg";
-export { default as CatHeadshotImg } from "./leaders/cat-noone.jpg";
+export { default as vinayheadshotImg } from "./leaders/vinay.jpg";
 export {
-  default as ChamathHeadshotImg
-} from "./leaders/chamath-palihapitiya.jpg";
-export { default as ConnieHeadshotImg } from "./leaders/connie-yang.jpg";
-export { default as DylanHeadshotImg } from "./leaders/dylan-field.jpg";
+  default as adithyaHeadshotImg
+} from "./leaders/adithya.jpg";
+export { default as shishiraHeadshotImg } from "./leaders/shishira.jpg";
+export { default as karthikshotImg } from "./leaders/karthik.jpg";
 export {
-  default as EthanWildingHeadshotImg
-} from "./leaders/ethan-wilding.jpg";
-export { default as JeffHeadshotImg } from "./leaders/jeff-coleman.jpg";
-export { default as JenniferHeadshotImg } from "./leaders/jennifer-dewalt.jpg";
-export { default as TiffaniHeadshotImg } from "./leaders/tiffani-bell.jpg";
-export { default as TracyHeadshotImg } from "./leaders/tracy-chou.jpg";
-export { default as VinodHeadshotImg } from "./leaders/vinod-khosla.jpg";
+  default as suhasHHeadshotImg
+} from "./leaders/suhasH.jpg";
+export { default as shravanshotImg } from "./leaders/shravan.jpg";
+export { default as tusharshotImg } from "./leaders/tushar.jpg";
 
 // eslint-disable-next-line prettier/prettier
 

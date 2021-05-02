@@ -45,13 +45,13 @@ import {
   SpeakerImg4,
   WaterlooEngLogoImg,
   // Leaders section
-  CatHeadshotImg,
-  ChamathHeadshotImg,
-  ConnieHeadshotImg,
-  DylanHeadshotImg,
-  EthanWildingHeadshotImg,
-  JeffHeadshotImg,
-  JenniferHeadshotImg,
+  vinayheadshotImg,
+  adithyaHeadshotImg,
+  shishiraHeadshotImg,
+  karthikshotImg,
+  suhasHHeadshotImg,
+  shravanshotImg,
+  tusharshotImg,
   /*TiffaniHeadshotImg,
   TracyHeadshotImg,
   VinodHeadshotImg,*/
@@ -290,37 +290,37 @@ const team = [
   
   {
     text: "VINAY M",
-    img: CatHeadshotImg,
+    img: vinayheadshotImg,
     alt: "JITHack LOGO"
   },
   {
     text: "Aditya Krishna",
-    img: ChamathHeadshotImg,
+    img: adithyaHeadshotImg,
     alt: "JITHack LOGO"
   },
   {
     text: "Shishira Nataraj",
-    img: ConnieHeadshotImg,
+    img: shishiraHeadshotImg,
     alt: "JITHack LOGO"
   },
   {
     text: "Karthik",
-    img: DylanHeadshotImg,
+    img: karthikshotImg,
     alt: "JITHack LOGO"
   },
   {
     text: "Suhas Hanjar",
-    img: EthanWildingHeadshotImg,
+    img: suhasHHeadshotImg,
     alt: "JITHack LOGO"
   },
   {
     text: "Shravan",
-    img: JeffHeadshotImg,
+    img: shravanshotImg,
     alt: "JITHack LOGO"
   },
   {
     text: "Tushar",
-    img: JenniferHeadshotImg,
+    img: tusharshotImg,
     alt: "JITHack LOGO"
   },
   {
@@ -684,46 +684,6 @@ export default {
     // ),
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders: [
-      // {
-      //   name: "Vinay M",
-      //   title: "Developer",
-      //   img: CatHeadshotImg
-      // },
-      {
-        name: "Aditya Krishna",
-        title: "Core Team",
-        img: ChamathHeadshotImg
-      },
-      {
-        name: "Shishira Nataraj",
-        title: "Core Team",
-        img: ConnieHeadshotImg
-      },
-      {
-        name: "Karthik B R",
-        title: "Core Team",
-        img: DylanHeadshotImg
-      },
-      // {
-      //   name: "Suhas Hanjar",
-      //   title: "Developer",
-      //   img: EthanWildingHeadshotImg
-      // },
-      // {
-      //   name: "Shravan",
-      //   title: "Developer",
-      //   img: JeffHeadshotImg
-      // },
-      // {
-      //   name: "Tushar",
-      //   title: "Developer",
-      //   img: JenniferHeadshotImg
-      // },
-      // {
-      //   name: "Rakshith",
-      //   title: "Developer",
-      //   img: rakshitheadshot
-      // },
       {
         name: "Mr. Srinidhi kulkarni V",
         title: "Assistant Professor",
@@ -735,12 +695,32 @@ export default {
         img: manojheadshot
       },
       {
-        name: "Saketh",
+        name: "Karthik Ravishankar",
+        title: "Lead Organizer",
+        img: karthikshotImg
+      },
+      {
+        name: "Shishira Nataraj",
+        title: "Core Team",
+        img: shishiraHeadshotImg
+      },
+      {
+        name: "Aditya Krishna",
+        title: "Lead Organizer",
+        img: adithyaHeadshotImg
+      },
+      {
+        name: "Saketh Jayarama",
         title: "Core Team",
         img: sakethimg
       },
       {
-        name: "Danush",
+        name: "Aishwarya",
+        title: "Core Team",
+        img: aishimg
+      },
+      {
+        name: "Dhanush",
         title: "Core Team",
         img: danushimg
       },
@@ -753,11 +733,6 @@ export default {
         name: "Prajwal",
         title: "Core Team",
         img: prajwaliimg
-      },
-      {
-        name: "Aishwarya",
-        title: "Core Team",
-        img: aishimg
       }
     ]
   },
@@ -773,40 +748,40 @@ export default {
       {
         name: "Vinay M",
         title: "Web Team",
-        img: CatHeadshotImg
+        img: vinayheadshotImg
       },
 //       {
 //         name: "Aditya Krishna",
 //         title: "Developer",
-//         img: ChamathHeadshotImg
+//         img: adithyaHeadshotImg
 //       },
 // //       {
 // //         name: "Shishira Nataraj",
 // //         title: "Developer",
-// //         img: ConnieHeadshotImg
+// //         img: shishiraHeadshotImg
 // //       },
 //       {
 //         name: "Karthik B R",
 //         title: "Developer",
-//         img: DylanHeadshotImg
+//         img: karthikshotImg
 //       },
       {
         name: "Suhas Hanjar",
         title: "Web Team",
-        img: EthanWildingHeadshotImg
+        img: suhasHHeadshotImg
       },
       {
-        name: "Shravan",
+        name: "Shravan K G",
         title: "Web Team",
-        img: JeffHeadshotImg
+        img: shravanshotImg
       },
       {
-        name: "Tushar",
+        name: "Tushar Thakur",
         title: "Web Team",
-        img: JenniferHeadshotImg
+        img: tusharshotImg
       },
       {
-        name: "Rakshith",
+        name: "Rakshith J",
         title: "Designer",
         img: rakshitheadshot
       },
