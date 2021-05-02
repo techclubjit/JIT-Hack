@@ -700,14 +700,14 @@ export default {
         img: karthikshotImg
       },
       {
-        name: "Shishira Nataraj",
-        title: "Core Team",
-        img: shishiraHeadshotImg
-      },
-      {
         name: "Aditya Krishna",
         title: "Lead Organizer",
         img: adithyaHeadshotImg
+      },
+      {
+        name: "Shishira Nataraj",
+        title: "Core Team",
+        img: shishiraHeadshotImg
       },
       {
         name: "Saketh Jayarama",
