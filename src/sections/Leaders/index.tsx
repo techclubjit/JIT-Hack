@@ -21,13 +21,14 @@ const LeadersWrapper = styled(SectionWrapper)`
 `;
 
 const Wrapper = styled.div`
-  display: grid;
+  display: block;
   grid-template-areas:
     "heading illustration"
     "desc illustration"
     "carousel carousel";
   grid-template-columns: 6fr 3fr;
   column-gap: 100px;
+  
 
   margin: auto;
 
