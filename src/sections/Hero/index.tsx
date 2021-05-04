@@ -207,7 +207,7 @@ const Hero = () => {
         {/* <MailingListSignup width={width} /> */}
         <div 
           className="apply-button" 
-          data-hackathon-slug="jithack - slug" 
+          data-hackathon-slug="jithack" 
           data-button-theme="dark"
           style={{height: "44px", width: "312px"}}
         ></div>
