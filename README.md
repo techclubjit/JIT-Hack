@@ -1,1 +1,1 @@
-# JIT Hack Website
+# JIT Hack Website - https://jithack.tech
