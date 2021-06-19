@@ -89,15 +89,25 @@ const SponsorImg = styled.img`
 const SponsorsList = () => (
   <>
     <Text as="h3" variant="subheading" id="sponsors">
-     <strong><big> Our sponsors</big></strong>
+      <strong>
+        <big> Our sponsors</big>
+      </strong>
     </Text>
 
     <Text as="h1" variant="subheading">
-    <h4> <small>Platinum sponsors</small> </h4>
-  </Text>
+      <h4>
+        {" "}
+        <small>Platinum sponsors</small>{" "}
+      </h4>
+    </Text>
     <SponsorContainer>
       {platinumSponsors.map(sponsor => (
-        <SponsorItem key={sponsor.name} href={sponsor.link} newTab tier="platinum">
+        <SponsorItem
+          key={sponsor.name}
+          href={sponsor.link}
+          newTab
+          tier="platinum"
+        >
           <SponsorImg
             src={sponsor.imgSrc}
             alt={sponsor.name}
@@ -107,8 +117,10 @@ const SponsorsList = () => (
       ))}
     </SponsorContainer>
     <Text as="h1" variant="subheading">
-    <h4><small>Gold sponsors </small></h4>
-  </Text>
+      <h4>
+        <small>Gold sponsors </small>
+      </h4>
+    </Text>
     <SponsorContainer>
       {goldSponsors.map(sponsor => (
         <SponsorItem key={sponsor.name} href={sponsor.link} newTab tier="gold">
@@ -136,6 +148,11 @@ const SponsorsList = () => (
         </SponsorItem>
       ))}
     </SponsorContainer>
+    <Text as="h1" variant="subheading">
+      <h4>
+        <small>Bronze sponsors </small>
+      </h4>
+    </Text>
     <SponsorContainer>
       {bronzeAndStartupSponsors.map(sponsor => (
         <SponsorItem
@@ -153,7 +170,6 @@ const SponsorsList = () => (
       ))}
     </SponsorContainer>
 
-    
     <SponsorContainer>
       {partners.map(partner => (
         <SponsorItem
