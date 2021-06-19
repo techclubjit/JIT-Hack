@@ -167,3 +167,5 @@ export { default as danushimg } from "./leaders/danush.jpg";
 export { default as shustiimg } from "./leaders/shrusti.jpg";
 export { default as prajwaliimg } from "./leaders/prajwal.jpg";
 export { default as aishimg } from "./leaders/aish.jpg";
+export { default as echoAR } from "./sponsors/echoARLogo.png";
+export { default as CSImain } from "./sponsors/CSI.png";

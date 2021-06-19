@@ -81,6 +81,8 @@ import {
   prajwaliimg,
   aishimg,
   gcelo,
+  echoAR,
+  CSImain,
 
 } from "static/img/";
 import { NewLineKind } from "typescript";
@@ -214,6 +216,12 @@ const sponsors: Sponsor[] = [
     }*/
   },
   {
+    name: "Computer Society of India",
+    tier: "platinum",
+    imgSrc: CSImain,
+    link: "http://csi-india.org.in/",
+  },
+  {
     name: "Polygon (previously Matic Network)",
     tier: "gold",
     imgSrc: gpolygonImg,
@@ -261,6 +269,12 @@ const sponsors: Sponsor[] = [
       linkLabel: "JITHack"
     }*/
   },
+  {
+    name: "EchoAR",
+    tier: "bronze",
+    imgSrc: echoAR,
+    link: "https://www.echoar.xyz/"
+  }
 
   // {
   //   name: "Techyon",
