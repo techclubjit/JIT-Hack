@@ -169,3 +169,4 @@ export { default as prajwaliimg } from "./leaders/prajwal.jpg";
 export { default as aishimg } from "./leaders/aish.jpg";
 export { default as echoAR } from "./sponsors/echoARLogo.png";
 export { default as CSImain } from "./sponsors/CSI.png";
+export { default as Layer5 } from "./sponsors/Layer5-Logo.png";

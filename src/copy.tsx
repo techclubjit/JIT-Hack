@@ -83,6 +83,7 @@ import {
   gcelo,
   echoAR,
   CSImain,
+  Layer5,
 
 } from "static/img/";
 import { NewLineKind } from "typescript";
@@ -226,6 +227,18 @@ const sponsors: Sponsor[] = [
     tier: "gold",
     imgSrc: gpolygonImg,
     link: "https://polygon.technology/",
+    /*feature: {
+      text:
+        "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
+      link: "https://jithack.netlify.app",
+      linkLabel: "JITHack"
+    }*/
+  },
+  {
+    name: "Layer5",
+    tier: "gold",
+    imgSrc: Layer5,
+    link: "https://layer5.io/",
     /*feature: {
       text:
         "JITHack is happening on June 26, 2021 at Jyothy Institute of Techonology.",
