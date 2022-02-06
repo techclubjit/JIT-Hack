@@ -3,7 +3,7 @@
   "version": "6.0.0",
   "private": true,
   "dependencies": {
-    "@hackthenorth/north": "^0.6.4",
+    "@hackthenorth/north": "^1.0.0",
     "@syncfusion/ej2-react-buttons": "^19.1.54",
     "@types/lodash.throttle": "^4.1.6",
     "@types/node": "^11.13.9",
@@ -50,7 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^16.14.5",
+    "@types/react": "^17.0.39",
     "@types/ua-parser-js": "^0.7.33",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "@typescript-eslint/parser": "^1.7.0",
