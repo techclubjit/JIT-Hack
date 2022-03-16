@@ -62,7 +62,7 @@
     "imagemin": "^6.1.0",
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-pngquant": "^7.0.0",
-    "prettier": "^1.17.0",
+    "prettier": "^2.6.0",
     "react-crossfade-image": "^1.2.0",
     "stylelint": "^10.0.1",
     "stylelint-config-recommended": "^2.2.0",
